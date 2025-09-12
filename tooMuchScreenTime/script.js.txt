@@ -1,0 +1,33 @@
+** start of script.js **
+
+function tooMuchScreenTime(hours) {
+  let result = false;
+  let totalHours = 0;
+
+  for(let i = 0; i < hours.length; i++){
+    totalHours += hours[i];
+    
+    if(hours[i] >= 10){
+      result = true;
+      break;
+    }
+
+    if(i > 1){
+      let avgOf3Days = (hours[i] + hours[i-1] + hours[i-2]) / 3;
+      if(avgOf3Days >= 8){
+        result = true;
+        break;
+      }
+    }
+  }
+
+  if(totalHours / hours.length >= 6){
+    result = true;
+  }
+
+  return result;
+}
+
+
+** end of script.js **
+

@@ -16,16 +16,6 @@ Given an array containing the first three numbers of a Tribonacci sequence, and 
  * @return {number[]} int array of tribonacci sequence to specified length.
  */
 
-/**
- * Challenge - Tribonacci Sequence
- *
- * Given an array containing the first three numbers of a Tribonacci sequence
- * and a desired length, return the sequence of that length.
- *
- * @param {number[]} startSequence - an array of 3 integers.
- * @param {number} length - desired length of the sequence.
- * @return {number[]} int array of Tribonacci sequence to specified length.
- */
 function tribonacciSequence(startSequence, length) {
   if (length === 0) return [];
   if (length <= 3) return startSequence.slice(0, length);

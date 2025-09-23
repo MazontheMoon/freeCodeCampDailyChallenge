@@ -129,3 +129,50 @@ Given the size of a fuel tank, the current fuel level, and the price per gallon,
 - fuelLevel is the current amount of fuel in the tank in gallons.
 - pricePerGallon is the cost of one gallon of fuel.
 The returned value should be rounded to two decimal places in the format: "$d.dd".
+
+### 19 - Photo Storage
+Given a photo size in megabytes (MB), and hard drive capacity in gigabytes (GB), return the number of photos the hard drive can store using the following constraints:
+- 1 gigabyte equals 1000 megabytes.
+- Return the number of whole photos the drive can store.
+
+### 20 - File Storage
+Given a file size, a unit for the file size, and hard drive capacity in gigabytes (GB), return the number of files the hard drive can store using the following constraints:
+- The unit for the file size can be bytes ("B"), kilobytes ("KB"), or megabytes ("MB").
+- Return the number of whole files the drive can fit.
+
+Use the following conversions:
+Unit	Equivalent
+1 B	    1 B
+1 KB	1000 B
+1 MB	1000 KB
+1 GB	1000 MB
+For example, given 500, "KB", and 1 as arguments, determine how many 500 KB files can fit on a 1 GB hard drive.
+
+### 21 - Video Storage
+Given a video size, a unit for the video size, a hard drive capacity, and a unit for the hard drive, return the number of videos the hard drive can store using the following constraints:
+- The unit for the video size can be bytes ("B"), kilobytes ("KB"), megabytes ("MB"), or gigabytes ("GB").
+- If not given one of the video units above, return "Invalid video unit".
+- The unit of the hard drive capacity can be gigabytes ("GB") or terabytes ("TB").
+- If not given one of the hard drive units above, return "Invalid drive unit".
+- Return the number of whole videos the drive can fit.
+
+Use the following conversions:
+Unit	Equivalent
+1 B	    1 B
+1 KB	1000 B
+1 MB	1000 KB
+1 GB	1000 MB
+1 TB	1000 GB
+For example, given 500, "MB", 100, and "GB" as arguments, determine how many 500 MB videos can fit on a 100 GB hard drive.
+
+### 22 - Digits vs Letters
+Given a string, return "digits" if the string has more digits than letters, "letters" if it has more letters than digits, and "tie" if it has the same amount of digits and letters.
+- Digits consist of 0-9.
+- Letters consist of a-z in upper or lower case.
+- Ignore any other characters.
+
+### 23 - String Mirror
+Given two strings, determine if the second string is a mirror of the first.
+- A string is considered a mirror if it contains the same letters in reverse order.
+- Treat uppercase and lowercase letters as distinct.
+- Ignore all non-alphabetical characters.

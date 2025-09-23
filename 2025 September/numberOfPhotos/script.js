@@ -6,7 +6,7 @@ Given a photo size in megabytes (MB), and hard drive capacity in gigabytes (GB),
 */
 
 /**
- * Returns the number of whole photos the drive can store.
+ * Returnsx the number of whole photos the drive can store.
  *
  * @param {number} photoSizeMb - size of each photo in megabytes.
  * @param {number} hardDriveSizeGb - size of the hard drive in gigabytes.

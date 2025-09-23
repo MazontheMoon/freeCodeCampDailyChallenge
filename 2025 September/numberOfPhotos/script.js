@@ -6,12 +6,12 @@ Given a photo size in megabytes (MB), and hard drive capacity in gigabytes (GB),
 */
 
 /**
- * Returns an acronym of a given string.
+ * Returns the number of whole photos the drive can store.
  *
  * @param {number} photoSizeMb - size of each photo in megabytes.
  * @param {number} hardDriveSizeGb - size of the hard drive in gigabytes.
  * @return {number} the number of photoSizeMb that can fit in hardDriveSizeGb.
- */
+ **/
 
 function numberOfPhotos(photoSizeMb, hardDriveSizeGb) {
   // Convert GB to MB

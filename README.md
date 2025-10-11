@@ -176,3 +176,37 @@ Given two strings, determine if the second string is a mirror of the first.
 - A string is considered a mirror if it contains the same letters in reverse order.
 - Treat uppercase and lowercase letters as distinct.
 - Ignore all non-alphabetical characters.
+
+### 24 - Perfect Square
+Given an integer, determine if it is a perfect square.
+
+A number is a perfect square if you can multiply an integer by itself to achieve the number. For example, 9 is a perfect square because you can multiply 3 by itself to get it.
+
+### 25 - 2nd Largest
+Given an array, return the second largest distinct number.
+
+### 26 - Caught Speeding
+Given an array of numbers representing the speed at which vehicles were observed traveling, and a number representing the speed limit, return an array with two items, the number of vehicles that were speeding, followed by the average amount beyond the speed limit of those vehicles.
+- If there were no vehicles speeding, return [0, 0].
+
+### 27 - Spam Detector
+Given a phone number in the format "+A (BBB) CCC-DDDD", where each letter represents a digit as follows:
+- A represents the country code and can be any number of digits.
+- BBB represents the area code and will always be three digits.
+- CCC and DDDD represent the local number and will always be three and four digits long, respectively.
+
+Determine if it's a spam number based on the following criteria:
+- The country code is greater than 2 digits long or doesn't begin with a zero (0).
+- The area code is greater than 900 or less than 200.
+- The sum of first three digits of the local number appears within last four digits of the local number.
+- The number has the same digit four or more times in a row (ignoring the formatting characters).
+
+### 28 - CSV Header Parser
+Given the first line of a comma-separated values (CSV) file, return an array containing the headings.
+- The first line of a CSV file contains headings separated by commas.
+- Remove any leading or trailing whitespace from each heading.
+
+### 29 - Longest Word
+Given a sentence, return the longest word in the sentence.
+- Ignore periods (.) when determining word length.
+- If multiple words are ties for the longest, return the first one that occurs.

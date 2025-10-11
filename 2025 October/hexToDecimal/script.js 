@@ -1,0 +1,21 @@
+/**
+ * Converts a hexadecimal string to its decimal (base 10) integer value.
+ *
+ * Hexadecimal is a number system that uses 16 digits:
+ * - '0'-'9' represent values 0 through 9.
+ * - 'A'-'F' (or 'a'-'f') represent values 10 through 15.
+ *
+ * @param {string} hex - The hexadecimal string to convert.
+ * @returns {number} The decimal integer equivalent of the hexadecimal string.
+ * @throws {Error} Throws an error if the input is not a valid hexadecimal string.
+ *
+ * @example
+ * hexToDecimal("1A"); // returns 26
+ * hexToDecimal("FF"); // returns 255
+ */
+function hexToDecimal(hex) {
+    if (typeof hex !== 'string' || !/^[0-9a-fA-F]+$/.test(hex)) {
+        throw new Error('Invalid hexadecimal string');
+    }
+    return parseInt(hex, 16);
+}

@@ -210,3 +210,110 @@ Given the first line of a comma-separated values (CSV) file, return an array con
 Given a sentence, return the longest word in the sentence.
 - Ignore periods (.) when determining word length.
 - If multiple words are ties for the longest, return the first one that occurs.
+
+### 30 - Phone Number Formatter
+Given a string of ten digits, return the string as a phone number in this format: "+D (DDD) DDD-DDDD".
+
+## 2025 October
+
+### 1 -  Binary to Decimal
+Given a string representing a binary number, return its decimal equivalent as a number.
+
+A binary number uses only the digits 0 and 1 to represent any number. To convert binary to decimal, multiply each digit by a power of 2 and add them together. Start by multiplying the rightmost digit by 2^0, the next digit to the left by 2^1, and so on. Once all digits have been multiplied by a power of 2, add the result together.
+
+### 2 - Decimal to Binary
+Given a non-negative integer, return its binary representation as a string.
+
+A binary number uses only the digits 0 and 1 to represent any number. To convert a decimal number to binary, repeatedly divide the number by 2 and record the remainder. Repeat until the number is zero. Read the remainders last recorded to first. 
+
+### 3 - P@ssw0rd Str3ngth!
+Given a password string, return "weak", "medium", or "strong" based on the strength of the password.
+
+A password is evaluated according to the following rules:
+- It is at least 8 characters long.
+- It contains both uppercase and lowercase letters.
+- It contains at least one number.
+- It contains at least one special character from this set: !, @, #, $, %, ^, &, or *.
+- Return "weak" if the password meets fewer than two of the rules. 
+- Return "medium" if the password meets 2 or 3 of the rules. 
+- Return "strong" if the password meets all 4 rules.
+
+### 4 - Space Week Day 1: Stellar Classification
+October 4th marks the beginning of World Space Week. The next seven days will bring you astronomy-themed coding challenges.
+
+For today's challenge, you are given the surface temperature of a star in Kelvin (K) and need to determine its stellar classification based on the following ranges:
+- "O": 30,000 K or higher
+- "B": 10,000 K - 29,999 K
+- "A": 7,500 K - 9,999 K
+- "F": 6,000 K - 7,499 K
+- "G": 5,200 K - 5,999 K
+- "K": 3,700 K - 5,199 K
+- "M": 0 K - 3,699 K
+Return the classification of the given star.
+
+### 5 - Space Week Day 2: Exoplanet Search
+For the second day of Space Week, you are given a string where each character represents the luminosity reading of a star. Determine if the readings have detected an exoplanet using the transit method. The transit method is when a planet passes in front of a star, reducing its observed luminosity.
+
+Luminosity readings only comprise of characters 0-9 and A-Z where each reading corresponds to the following numerical values:
+- Characters 0-9 correspond to luminosity levels 0-9.
+- Characters A-Z correspond to luminosity levels 10-35.
+- A star is considered to have an exoplanet if any single reading is less than or equal to 80% of the average of all readings. For example, if the average luminosity of a star is 10, it would be considered to have a exoplanet if any single reading is 8 or less.
+
+### 6 - Space Week Day 3: Phone Home
+For day three of Space Week, you are given an array of numbers representing distances (in kilometers) between yourself, satellites, and your home planet in a communication route. Determine how long it will take a message sent through the route to reach its destination planet using the following constraints:
+- The first value in the array is the distance from your location to the first satellite.
+- Each subsequent value, except for the last, is the distance to the next satellite.
+- The last value in the array is the distance from the previous satellite to your home planet.
+- The message travels at 300,000 km/s.
+- Each satellite the message passes through adds a 0.5 second transmission delay.
+- Return a number rounded to 4 decimal places, with trailing zeros removed.
+
+### 7 - Space Week Day 4: Landing Spot
+In day four of Space Week, you are given a matrix of numbers (an array of arrays), representing potential landing spots for your rover. Find the safest landing spot based on the following rules:
+
+Each spot in the matrix will contain a number from 0-9, inclusive.
+Any 0 represents a potential landing spot.
+Any number other than 0 is too dangerous to land. The higher the number, the more dangerous.
+The safest spot is defined as the 0 cell whose surrounding cells (up to 4 neighbors, ignore diagonals) have the lowest total danger.
+Ignore out-of-bounds neighbors (corners and edges just have fewer neighbors).
+Return the indices of the safest landing spot. There will always only be one safest spot.
+
+### 8 - Space Week Day 5: Goldilocks Zone
+For the fifth day of Space Week, you will calculate the "Goldilocks zone" of a star - the region around a star where conditions are "just right" for liquid water to exist.
+
+Given the mass of a star, return an array with the start and end distances of its Goldilocks Zone in Astronomical Units.
+
+To calculate the Goldilocks Zone:
+
+Find the luminosity of the star by raising its mass to the power of 3.5.
+The start of the zone is 0.95 times the square root of its luminosity.
+The end of the zone is 1.37 times the square root of its luminosity.
+Return the distances rounded to two decimal places.
+For example, given 1 as a mass, return [0.95, 1.37].
+
+### 9 - Space Week Day 6: Moon Phase
+For day six of Space Week, you will be given a date in the format "YYYY-MM-DD" and need to determine the phase of the moon for that day using the following rules:
+ - Use a simplified lunar cycle of 28 days, divided into four equal phases:
+  - "New": days 1 - 7
+  - "Waxing": days 8 - 14
+  - "Full": days 15 - 21
+  - "Waning": days 22 - 28
+ - After day 28, the cycle repeats with day 1, a new moon.
+- Use "2000-01-06" as a reference new moon (day 1 of the cycle) to determine the phase of the given day.
+- You will not be given any dates before the reference date.
+- Return the correct phase as a string.
+
+### 10 - Space Week Day 7: Launch Fuel
+For the final day of Space Week, you will be given the mass in kilograms (kg) of a payload you want to send to orbit. Determine the amount of fuel needed to send your payload to orbit using the following rules:
+
+Rockets require 1 kg of fuel per 5 kg of mass they must lift.
+Fuel itself has mass. So when you add fuel, the mass to lift goes up, which requires more fuel, which increases the mass, and so on.
+To calculate the total fuel needed:
+- start with the payload mass, calculate the fuel needed for that, add that fuel to the total mass, and calculate again. Repeat this process until the additional fuel required is less than 1 kg, then stop.
+- Ignore the mass of the rocket itself. - Only compute fuel needed to lift the payload and its own fuel.
+
+For example, given a payload mass of 50 kg, you would need 10 kg of fuel to lift it (payload / 5), which increases the total mass to 60 kg, which needs 12 kg to lift (2 additional kg), which increases the total mass to 62 kg, which needs 12.4 kg to lift - 0.4 additional kg - which is less 1 additional kg, so we stop here. The total mass to lift is 62.4 kg, 50 of which is the initial payload and 12.4 of fuel.
+
+Return the amount of fuel needed rounded to one decimal place.
+
+### 11 

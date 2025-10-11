@@ -316,4 +316,8 @@ For example, given a payload mass of 50 kg, you would need 10 kg of fuel to lift
 
 Return the amount of fuel needed rounded to one decimal place.
 
-### 11 
+### 11 - Hex to Decimal
+Given a string representing a hexadecimal number (base 16), return its decimal (base 10) value as an integer.
+Hexadecimal is a number system that uses 16 digits:
+• 0-9 represent values 0 through 9.
+• A-F represent values 10 through 15.

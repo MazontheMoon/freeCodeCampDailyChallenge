@@ -336,3 +336,9 @@ The given sentences will always contain the same number of words.
 • The team with more winning words is the winner.
 
 Return "We win" if your team is the winner, "We lose" if your team loses, and "Draw" if both teams have the same number of wins.
+
+### 13 - 24 to 12
+
+Given a string representing a time of the day in the 24-hour format of "HHMM", return the time in its equivalent 12-hour.
+The given input will always be a four-digit string in 24-hour time format, from "0000" to "2359".
+function to12(time) {...}

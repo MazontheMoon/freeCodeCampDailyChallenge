@@ -1,4 +1,4 @@
-8# freeCodeCampDailyChallenge
+78# freeCodeCampDailyChallenge
 A collection of my solutions to FreeCodeCamps series of daily frontend challenges
 
 ## 2025 September
@@ -342,3 +342,9 @@ Return "We win" if your team is the winner, "We lose" if your team loses, and "D
 Given a string representing a time of the day in the 24-hour format of "HHMM", return the time in its equivalent 12-hour.
 The given input will always be a four-digit string in 24-hour time format, from "0000" to "2359".
 function to12(time) {...}
+
+### 14 - String Count
+
+Given two strings, determine how many times the second string appears in the first.Given two strings, determine how many times the second string appears in the first.
+- The pattern string can overlap in the first string. For example, "aaa" contains "aa" twice. The first two a's and the second two.
+function count(text, pattern) {...}

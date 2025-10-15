@@ -1,4 +1,4 @@
-78# freeCodeCampDailyChallenge
+# freeCodeCampDailyChallenge
 A collection of my solutions to FreeCodeCamps series of daily frontend challenges
 
 ## 2025 September
@@ -348,3 +348,12 @@ function to12(time) {...}
 Given two strings, determine how many times the second string appears in the first.Given two strings, determine how many times the second string appears in the first.
 - The pattern string can overlap in the first string. For example, "aaa" contains "aa" twice. The first two a's and the second two.
 function count(text, pattern) {...}
+
+### 15 - HTML Tag Stripper
+
+Given a string of HTML code, remove the tags and return the plain text content.
+- The input string will contain only valid HTML.
+- HTML tags may be nested.
+- Remove the tags and any attributes.
+
+function stripTags(html) {...}

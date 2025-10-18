@@ -378,3 +378,14 @@ Given a string of credit card numbers, return a masked version of it using the f
 - Leave the remaining characters unchanged.
 For example, given "4012-8888-8888-1881" return "****-****-****-1881".
 function mask(card) {}
+
+### 18 - Missing Socks
+
+Given an integer representing the number of pairs of socks you started with, and another integer representing how many wash cycles you have gone through, return the number.
+- Every 2 wash cycles, you lose a single sock.• Every 3 wash cycles, you find a single missing sock.
+- Every 5 wash cycles, a single sock is worn out and must be thrown away.
+- Every 10 wash cycles, you buy a pair of socks.
+- You can never have less than zero total socks.
+- Rules can overlap. For example, on wash cycle 10, you will lose a single sock, throw away a single sock, and buy a new pair of socks.
+- Return the number of complete pairs of socks.
+function sockPairs(pairs, cycles) {...}

@@ -1,4 +1,4 @@
-# freeCodeCampDailyChallenge
+0# freeCodeCampDailyChallenge
 A collection of my solutions to FreeCodeCamps series of daily frontend challenges
 
 ## 2025 September
@@ -399,3 +399,11 @@ Given a string of a valid HTML element, return the attributes of the element usi
 - Return attributes in the order they are given.
 - If no attributes are found, return an empty array.
 function extractAttributes(element) {...}
+
+### 20 - Tip Calculator
+Given the price of your meal and a custom tip percent, return an array with three tip values; 15%, 20%, and the custom amount.
+Prices will be given in the format: "$N.NN".
+- Custom tip percents will be given in this format: "25%".
+- Return amounts in the same "$N.NN" format, rounded to two decimal places.
+For example, given a "$10.00" meal price, and a "25%" custom tip value, return ["$1.50", "$2.00", "$2.50"].
+function calculateTips(mealPrice, customTip) {...}

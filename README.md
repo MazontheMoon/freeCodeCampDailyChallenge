@@ -443,3 +443,16 @@ Given an array of song objects representing your iPod playlist, return an array 
 Each object will have a "title" property (string), and a "plays" property (integer).
 function favoriteSongs(playlist) {...}
 
+### 24 - Hidden Treasure
+Given a 2D array representing a map of the ocean floor that includes a hidden treasure, and an array with the coordinates ([row, column]) for the next dive of your treasure search, return "Empty", "Found", or "Recovered" using the following rules:
+
+The given 2D array will contain exactly one unrecovered treasure, which will occupy multiple cells.
+
+Each cell in the 2D array will contain one of the following values:
+- "-": No treasure.
+- "O": A part of the treasure that has not been found.
+- "X": A part of the treasure that has already been found.
+- If the dive location has no treasure, return "Empty".
+- If the dive location finds treasure, but at least one other part of the treasure remains unfound, return "Found".
+- If the dive location finds the last unfound part of the treasure, return "Recovered".
+

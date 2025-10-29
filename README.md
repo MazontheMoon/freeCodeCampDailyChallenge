@@ -480,3 +480,30 @@ Given a positive integer, return a string with all of the integers from 1 up to,
 For example, given 5, return "12345"
 
 function sequence(n) {...}
+
+### 28 - Navigator
+On October 28, 1994, Netscape Navigator was released, helping millions explore the early web.
+
+Given an array of browser commands you executed on Netscape Navigator, return the current page you are on after executing all the commands using the following rules:
+- You always start on the "Home" page, which will not be included in the commands array.
+
+Valid commands are:
+- "Visit Page": Where "Page" is the name of the page you are visiting. For example, "Visit About" takes you to the - "About" page. When you visit a new page, make sure to discard any forward history you have.
+- "Back": Takes you to the previous page in your history or stays on the current page if there isn't one.
+- "Forward": Takes you forward in the history to the page you came from or stays on the current page if there isn't one.
+
+For example, given ["Visit About Us", "Back", "Forward"], return "About Us".
+
+function navigate(commands) {...}
+
+### 29 - Email Sorter
+On October 29, 1971, the first email ever was sent, introducing the username@domain format we still use. Now, there are billions of email addresses.
+
+In this challenge, you are given a list of email addresses and need to sort them alphabetically by domain name first (the part after the @), and username second (the part before the @).
+
+- Sorting should be case-insensitive.
+- If more than one email has the same domain, sort them by their username.
+- Return an array of the sorted addresses.
+- Returned addresses should retain their original case.
+
+function sort(emails) {...}

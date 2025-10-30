@@ -507,3 +507,11 @@ In this challenge, you are given a list of email addresses and need to sort them
 - Returned addresses should retain their original case.
 
 function sort(emails) {...}
+
+### 30 - Nth Prime
+A prime number is a positive integer greater than 1 that is divisible only by 1 and itself. 
+The first five prime numbers are 2, 3, 5, 7, and 11.
+
+Given a positive integer n, return the nth prime number. For example, given 5 return the 5th prime number: 11.
+
+function nthPrime(n) {...}

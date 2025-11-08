@@ -614,3 +614,10 @@ Order does not matter. Picking card A then card B is the same as picking card B 
 For example, given 52, return 1. There's only one combination of 52 cards to pick from a 52 card deck. And given 2, return 1326, There's 1326 card combinations you can end up with when picking 2 cards from the deck.
 
 function combinations(cards) {...}
+
+### 8 - Character Limit
+In this challenge, you are given a string and need to determine if it fits in a social media post. Return the following strings based on the rules given:
+- "short post" if it fits within a 40-character limit.
+- "long post" if it's greater than 40 characters and fits within an 80-character limit.
+- "invalid post" if it's too long to fit within either limit.
+function canPost(message) {...}

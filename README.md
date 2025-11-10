@@ -621,3 +621,34 @@ In this challenge, you are given a string and need to determine if it fits in a 
 - "long post" if it's greater than 40 characters and fits within an 80-character limit.
 - "invalid post" if it's too long to fit within either limit.
 function canPost(message) {...}
+
+### 9 - Word Search
+Given a matrix (an array of arrays) of single letters and a word to find, return the start and end indices of the word in the matrix.
+
+The given matrix will be filled with all lowercase letters (a-z).
+The word to find will always be in the matrix exactly once.
+The word to find will always be in a straight line in one of these directions:
+- left to right
+- right to left
+- top to bottom
+- bottom to top
+
+For example, given the matrix:
+[
+  ["a", "c", "t"],
+  ["t", "a", "t"],
+  ["c", "t", "c"]
+]
+And the word "cat", return:
+[[0, 1], [2, 1]]
+Where [0, 1] are the indices for the "c" (start of the word), and [2, 1] are the indices for the "t" (end of the word).
+function findWord(matrix, word) {...}
+
+### 10 - Extension Extractor
+Given a string representing a filename, return the extension of the file.
+
+The extension is the part of the filename that comes after the last period (.).
+If the filename does not contain a period or ends with a period, return "none".
+The extension should be returned as-is, preserving case.
+
+function getExtension(filename) {...}

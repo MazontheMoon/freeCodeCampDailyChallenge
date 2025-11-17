@@ -692,3 +692,29 @@ If X is 1, use "day" (singular) instead of "days" (plural).
 Make sure the calculation ignores your local timezone.
 
 function daysUntilWeekend(dateString) {...}
+
+### 15 - GCD
+Given two positive integers, return their greatest common divisor (GCD).
+
+The GCD of two integers is the largest number that divides evenly into both numbers without leaving a remainder.
+For example, the divisors of 4 are 1, 2, and 4. The divisors of 6 are 1, 2, 3, and 6. So given 4 and 6, return 2, the largest number that appears in both sets of divisors.
+
+function gcd(x, y) {...}
+
+### 16 - Rectangle Count
+Given two positive integers representing the width and height of a rectangle, determine how many rectangles can fit in the given one.
+
+Only count rectangles with integer width and height.
+For example, given 1 and 3, return 6. Three 1x1 rectangles, two 1x2 rectangles, and one 1x3 rectangle.
+
+function countRectangles(width, height) {...}
+
+### 17 - Fingerprint Test
+Given two strings representing fingerprints, determine if they are a match using the following rules:
+
+Each fingerprint will consist only of lowercase letters (a-z).
+Two fingerprints are considered a match if:
+- They are the same length.
+- The number of differing characters does not exceed 10% of the fingerprint length.
+
+function isMatch(fingerprintA, fingerprintB) {...}

@@ -763,3 +763,23 @@ The LCM of two numbers is the smallest positive integer that is a multiple of bo
 - 12 is the smallest number that is a multiple of both.
 
 function lcm(a, b) {...}
+
+### 22 - Recipe Scaler
+Given an array of recipe ingredients and a number to scale the recipe, return an array with the quantities scaled accordingly.
+
+- Each item in the given array will be a string in the format: "quantity unit ingredient". For example "2 C Flour".
+- Scale the quantity by the given number. Do not include any trailing zeros and do not convert any units.
+Return the scaled items in the same order they are given.
+
+function scaleRecipe(ingredients, scale) {...}
+
+### 23 - Character Count
+Given a sentence string, return an array with a count of each character in alphabetical order.
+
+- Treat upper and lowercase letters as the same letter when counting.
+- Ignore numbers, spaces, punctuation, etc.
+- Return the count and letter in the format "letter count". For instance, "a 3".
+- All returned letters should be lowercase.
+- Do not return a count of letters that are not in the given string.
+
+function countCharacters(sentence) {...}

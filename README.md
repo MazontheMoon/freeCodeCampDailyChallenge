@@ -783,3 +783,8 @@ Given a sentence string, return an array with a count of each character in alpha
 - Do not return a count of letters that are not in the given string.
 
 function countCharacters(sentence) {...}
+
+### 24 - function isValidMessage(message, validator) {
+
+  return message;
+}

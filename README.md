@@ -784,7 +784,20 @@ Given a sentence string, return an array with a count of each character in alpha
 
 function countCharacters(sentence) {...}
 
-### 24 - function isValidMessage(message, validator) {
+### 24 - Message Validator
+Given a message string and a validation string, determine if the message is valid.
 
-  return message;
-}
+A message is valid if each word in the message starts with the corresponding letter in the validation string, in order.
+Letters are case-insensitive.
+Words in the message are separated by single spaces.
+
+function isValidMessage(message, validator) {...}
+
+### 25 - FizzBuzz
+Given an integer (n), return an array of integers from 1 to n (inclusive), replacing numbers that are multiple of:
+
+3 with "Fizz".
+5 with "Buzz".
+3 and 5 with "FizzBuzz".
+
+function fizzBuzz(n) {...}

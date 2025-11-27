@@ -811,3 +811,12 @@ Given an array, determine if it is a correct FizzBuzz sequence from 1 to the las
 - The array must start at 1 and have no missing or extra elements.
 
 function isFizzBuzz(sequence) {...}
+
+### 27 - What's My Age Again?
+Given the date of someone's birthday in the format YYYY-MM-DD, return the person's age as of November 27th, 2025.
+
+- Assume all birthdays are valid dates before November 27th, 2025.
+- Return the age as an integer.
+- Be sure to account for whether the person has already had their birthday in 2025.
+
+function calculateAge(birthday) {...}

@@ -864,3 +864,15 @@ Words are separated by a single space and only consist of letters (A-Z). Don't i
 If the given sentence meets any of the rules above, return "AI", otherwise, return "Human".
 
 function detectAI(text) {...}
+
+## 2025 December
+
+### 1 - Miles to Kilometers
+Given a distance in miles as a number, return the equivalent distance in kilometers.
+
+The input will always be a non-negative number.
+1 mile equals 1.60934 kilometers.
+Round the result to two decimal places.
+
+function convertToKm(miles) {...}
+

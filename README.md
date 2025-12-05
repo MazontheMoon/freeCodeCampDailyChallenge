@@ -914,3 +914,9 @@ A permutation is any reordering of the characters in the string.
 For example, given "abb", return 3 because there's three unique ways to arrange the letters: "abb", "bab", and "bba".
 
 function countPermutations(str) {...}
+
+### 5 - Symmetric Difference
+Given two arrays, return a new array containing the symmetric difference of them.
+- The symmetric difference between two sets is the set of values that appear in either set, but not both.
+- Return the values in the order they first appear in the input arrays.
+function difference(arr1, arr2) {...}

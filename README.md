@@ -920,3 +920,12 @@ Given two arrays, return a new array containing the symmetric difference of them
 - The symmetric difference between two sets is the set of values that appear in either set, but not both.
 - Return the values in the order they first appear in the input arrays.
 function difference(arr1, arr2) {...}
+
+### 6 - String Compression
+Given a string sentence, return a compressed version of the sentence where consecutive duplicate words are replaced by the word followed with the number of times it repeats in parentheses.
+- Only consecutive duplicates are compressed.• 
+- Words are separated by single spaces.
+
+For example, given "yes yes yes please", return "yes(3) please".
+
+function compressString(sentence) {...}

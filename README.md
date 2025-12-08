@@ -929,3 +929,18 @@ Given a string sentence, return a compressed version of the sentence where conse
 For example, given "yes yes yes please", return "yes(3) please".
 
 function compressString(sentence) {...}
+
+### 7 - Symmetric  Difference 
+Given two arrays, return a new array containing the symmetric difference of them.
+The symmetric difference between two sets is the set of values that appear in either set, but not both.
+Return the values in the order they first appear in the input arrays.
+
+### 8 - Pounds to Kilograms
+Given a weight in pounds as a number, return the string "(lbs) pounds equals (kgs) kilograms.".
+- Replace "(lbs)" with the input number.• Replace "(kgs)" with the input converted to kilograms, rounded to two decimals and always include two decimal places in the value.
+- 1 pound equals 0.453592 kilograms.
+- If the input is 1, use "pound" instead of "pounds".
+- If the converted value is 1, use "kilogram" instead of "kilograms".
+
+function convertToKgs(lbs) {...}
+

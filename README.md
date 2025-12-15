@@ -948,3 +948,12 @@ function convertToKgs(lbs) {...}
 Given an array of elements, return the element that appears most frequently(There will always be a single most frequent element).
 function mostFrequent(arr) {...}
 
+### 10 - Markdown Bold Parser
+Given a string that may include some bold text in Markdown, return the equivalent HTML string.
+
+Bold text in Markdown is any text that starts and ends with two asterisks (**) or two underscores (__).
+There cannot be any spaces between the text and the asterisks or underscores, but there can be spaces in the text itself.
+Convert all bold occurrences to HTML <b> tags and return the string.
+For example, given "**This is bold**", return "<b>This is bold</b>".
+
+function parseBold(markdown) {...}

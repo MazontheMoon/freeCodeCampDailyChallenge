@@ -1041,3 +1041,9 @@ Given the speed you are traveling in miles per hour (MPH), and a speed limit in 
 - If you are travelling more than 5 KPH over the speed limit, return "Ticket".
 
 function speedCheck(speedMph, speedLimitKph) {...}
+
+### 16 - Consonant Count
+Given a string and a target number, determine whether the string contains exactly the target number of consonants.
+- Consonants are all alphabetic characters except "a", "e", "i", "o", and "u" in any case.
+- Ignore digits, punctuation, spaces, and other non-letter characters when counting.
+function hasConsonantCount(text, target) {...}

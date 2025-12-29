@@ -1064,3 +1064,153 @@ Given an array with two numbers, the first being the number of rows and the seco
 - The characters should alternate like a checkerboard.
 - The top-left cell must always be "X"
 function createBoard(dimensions) {...}
+
+### 19 - Pairwise
+Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+
+For example, given [2, 3, 4, 6, 8] and 10, you will find two valid pairs:
+2 and 8 (2 + 8 = 10), whose indices are 0 and 4
+4 and 6 (4 + 6 = 10), whose indices are 2 and 3
+Add all the indices together to get a return value of 9.
+
+function pairwise(arr, target) {...}
+
+### 20 - Takeoff Fuel
+Given the numbers of gallons of fuel currently in your airplane, and the required number of liters of fuel to reach your destination, determine how many additional gallons of fuel you should add.
+- 1 gallon equals 3.78541 liters.
+- If the airplane already has enough fuel, return 0.
+- You can only add whole gallons.
+- Do not include decimals in the return number.
+
+function fuelToAdd(currentGallons, requiredLiters) {...}
+
+### 21 - Purge Most Frequent
+Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+- If multiple values are tied for most frequent, remove all of them.
+- Do not change any of the other elements or their order.
+function purgeMostFrequent(arr) {...}
+
+### 22 - Daylight Hours
+December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
+
+Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
+
+Latitude	Daylight Hours
+-90			24
+-75			23
+-60			21
+-45			15
+-30			13
+-15			12
+0			12
+15			11
+30			10
+45			9
+60			6
+75			2
+90			0
+If the given latitude does not exactly match a table entry, use the value of the closest latitude.
+
+function daylightHours(latitude) {...}
+
+### 23 - Traveling Shopper
+Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+
+The given amount will be in the format ["Amount", "Currency Code"]. 
+For example: ["150.00", "USD"] or ["6000", "JPY"].
+Each array item you want to purchase will be in the same format.
+Use the following exchange rates to convert values:
+Currency 1 Unit Equals:
+USD	1.00 USD
+EUR	1.10 USD
+GBP	1.25 USD
+JPY	0.0070 USD
+CAD	0.75 USD
+If you can afford all the items in the list, return "Buy them all!".
+Otherwise, return "Buy the first X items.", where X is the number of items you can afford when purchased in the order given.
+function buyItems(funds, items) {...}
+
+### 24 - Re: Fwd: Fw: Count
+Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+
+For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+"fw:"
+"fwd:"
+"re:"
+Return the total number of occurrences of these markers.
+
+function emailChainCount(subject) {...}
+
+### 25 - Markdown Image Parser
+Given a string of an image in Markdown, return the equivalent HTML string.
+
+A Markdown image has the following format: "![alt text](image_url)". Where:
+- alt text is the description of the image (the alt attribute value).
+- image_url is the source URL of the image (the src attribute value).
+
+Return a string of the HTML img tag with the src set to the image URL and the alt set to the alt text.
+
+For example, given "![Cute cat](cat.png)" return '<img src="cat.png" alt="Cute cat">';
+
+Make sure the tag, order of attributes, spacing, and quote usage is the same as above.
+
+function parseImage(markdown) {...}
+
+### 26 - Snowflake Generator
+Given a multi-line string that uses newline characters (\n) to represent a line break, return a new string where each line is mirrored horizontally and attached to the end of the original line.
+
+Mirror a line by reversing all of its characters, including spaces.
+For example, given "* \n *\n* ", which logs to the console as:
+
+* 
+ *
+* 
+Return "*  *\n ** \n*  *", which logs to the console as:
+
+*  *
+ ** 
+*  *
+Take careful note of the whitespaces in the given and returned strings. Be sure not to trim any of them.
+
+function generateSnowflake(crystals) {...}
+
+### 27 - Sum of Divisors
+Given a positive integer, return the sum of all its divisors.
+
+A divisor is any integer that divides the number evenly (the remainder is 0).
+Only count each divisor once.
+For example, given 6, return 12 because the divisors of 6 are 1, 2, 3, and 6, and the sum of those is 12.
+
+function sumDivisors(n) {...}
+
+### 28 - Rock, Paper, Scissors
+Given two strings, the first representing Player 1 and the second representing Player 2, determine the winner of a match of Rock, Paper, Scissors.
+
+The input strings will always be "Rock", "Paper", or "Scissors".
+"Rock" beats "Scissors".
+"Paper" beats "Rock".
+"Scissors" beats "Paper".
+
+Return:
+"Player 1 wins" if Player 1 wins.
+"Player 2 wins" if Player 2 wins.
+"Tie" if both players choose the same option.
+
+function rockPaperScissors(player1, player2) {...}
+
+### 29 - SCREAMING_SNAKE_CASE
+Given a string representing a variable name, return the variable name converted to SCREAMING_SNAKE_CASE.
+
+The given variable names will be written in one of the following formats:
+camelCase
+PascalCase
+snake_case
+kebab-case
+
+In the above formats, words are separated by an underscore (_), a hyphen (-), or a new word starts with a capital letter.
+
+To convert to SCREAMING_SNAKE_CASE:
+- Make all letters uppercase
+- Separate words with an underscore (_)
+
+function toScreamingSnakeCase(variableName) {...}

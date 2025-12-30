@@ -1214,3 +1214,11 @@ To convert to SCREAMING_SNAKE_CASE:
 - Separate words with an underscore (_)
 
 function toScreamingSnakeCase(variableName) {...}
+
+### 30 - Sum the String
+Given a string containing digits and other characters, return the sum of all numbers in the string.
+
+- Treat consecutive digits as a single number. For example, "13" counts as 13, not 1 + 3.
+- Ignore any non-digit characters.
+
+function stringSum(str) {...}

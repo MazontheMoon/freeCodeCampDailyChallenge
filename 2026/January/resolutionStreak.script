@@ -1,0 +1,53 @@
+/*
+PSEUDOCODE:
+- Start a counter for successful days at 0
+- Loop through the array of days
+- For each day:
+    - Get steps, screen time, and pages read
+    - Check if:
+        - steps >= 10000
+        - screen time <= 120
+        - pages >= 5
+    - If all are true:
+        - Increase successful days counter
+    - Otherwise:
+        - Return a failure message with:
+            - the current day number
+            - the number of successful days so far
+- If the loop finishes:
+    - Return a success message with the total number of days
+*/
+
+
+/**
+ * Determines whether a daily resolution streak is being maintained.
+ *
+ * Each day contains:
+ * [steps walked, minutes of screen time, pages read]
+ *
+ * @param {number[][]} days - An array of daily activity data
+ * @returns {string} A message indicating success or failure of the streak
+ */
+
+
+function resolutionStreak(days) {
+  let successfulDays = 0;
+
+  for (let i = 0; i < days.length; i++) {
+    const steps = days[i][0];
+    const screenTime = days[i][1];
+    const pagesRead = days[i][2];
+
+    if (
+      steps >= 10000 &&
+      screenTime <= 120 &&
+      pagesRead >= 5
+    ) {
+      successfulDays++;
+    } else {
+      return "Resolution failed on day " + (i + 1) + ": " + successfulDays + " day streak.";
+    }
+  }
+
+  return "Resolution on track: " + successfulDays + " day streak.";
+}

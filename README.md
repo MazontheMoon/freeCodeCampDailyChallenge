@@ -5,6 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 2 - Nth Fibonacci Number
+
+Given an integer n, return the nth number in the fibonacci sequence.
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. 
+The first 10 numbers in the sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
+
+function nthFibonacci(n) {...}
+
 ### 1 - Resolution Streak
 Given an array of arrays, where each sub-array represents a day of your resolution activities and contains three integers: the number of steps walked that day, the minutes of screen time that day, and the number of pages read that day; determine if you are keeping your resolutions.
 

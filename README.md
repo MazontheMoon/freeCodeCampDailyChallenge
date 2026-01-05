@@ -5,6 +5,54 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 5 - Tire Pressure
+Given an array with four numbers representing the tire pressures in psi of the four tires in your vehicle, and another array of two numbers representing the minimum and maximum pressure for your tires in bar, return an array of four strings describing each tire's status.
+
+- 1 bar equal 14.5038 psi.
+
+Return an array with the following values for each tire:
+- "Low" if the tire pressure is below the minimum allowed.
+- "Good" if it's between the minimum and maximum allowed.
+- "High" if it's above the maximum allowed.
+
+### 4 - Leap Year Calculator
+Given an integer year, determine whether it is a leap year.
+
+A year is a leap year if it satisfies the following rules:
+- The year is evenly divisible by 4, and
+- The year is not evenly divisible by 100, unless
+- The year is evenly divisible by 400.
+
+function isLeapYear(year) {
+	...
+  return year;
+}
+
+
+### 3 - Left-Handed Seat at the Table
+Given a 4x2 matrix (array of arrays) representing the seating arrangement for a meal, determine how many seats a left-handed person can sit at.
+
+A left-handed person cannot sit where a right-handed person would be in the seat to the immediate left of them.
+In the given matrix:
+- An "R" is a seat occupied by a right-handed person.
+- An "L" is a seat occupied by a left-handed person.
+- A "U" is an unoccupied seat.
+- Only unoccupied seats are available to sit at.
+- The seats in the top row are facing "down", and the seats in the bottom row are facing "up" (like a table), so left and right are relative to the seat's orientation.
+- Corner seats only have one seat next to them.
+
+For example, in the given matrix:
+[
+  ["U", "R", "U", "L"],
+  ["U", "R", "R", "R"]
+]
+The top-left seat is cannot be sat in because there's a right-handed person to the left. The other two open seats can be sat in because there isn't a right-handed person to the left.
+
+function findLeftHandedSeats(table) {
+	...
+  return table;
+}
+
 ### 2 - Nth Fibonacci Number
 
 Given an integer n, return the nth number in the fibonacci sequence.

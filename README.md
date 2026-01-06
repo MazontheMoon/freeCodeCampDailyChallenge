@@ -5,6 +5,14 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 6 - vOwElcAsE
+Given a string, return a new string where all vowels are converted to uppercase and all other alphabetical characters are converted to lowercase.
+
+Vowels are "a", "e", "i", "o", and "u" in any case.
+Non-alphabetical characters should remain unchanged.
+
+function vowelCase(str) {...}
+
 ### 5 - Tire Pressure
 Given an array with four numbers representing the tire pressures in psi of the four tires in your vehicle, and another array of two numbers representing the minimum and maximum pressure for your tires in bar, return an array of four strings describing each tire's status.
 

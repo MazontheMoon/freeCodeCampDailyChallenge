@@ -5,6 +5,20 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 7 - Markdown Unordered List Parser
+Given the string of a valid unordered list in Markdown, return the equivalent HTML string.
+
+An unordered list consists of one or more list items. A valid list item appears on its own line and:
+- Starts with a dash ("-"), followed by
+- At least one space, and then
+- The list item text.
+
+The list is given as a single string with new lines separated by the newline character ("\n"). Do not include the newline characters in the item text.
+
+Wrap each list item in HTML li tags, and the whole list of items in ul tags.
+
+For example, given "- Item A\n- Item B", return "<ul><li>Item A</li><li>Item B</li></ul>".
+
 ### 6 - vOwElcAsE
 Given a string, return a new string where all vowels are converted to uppercase and all other alphabetical characters are converted to lowercase.
 

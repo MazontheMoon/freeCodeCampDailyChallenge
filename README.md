@@ -5,6 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 9 - Circular Prime
+Given an integer, determine if it is a circular prime.
+
+A circular prime is an integer where all rotations of its digits are themselves prime.
+
+For example, 197 is a circular prime because all rotations of its digits: 197, 971, and 719, are prime numbers.
+
+function isCircularPrime(n) {...}
+
 ### 8 - Sorted Array?
 Given an array of numbers, determine if the numbers are sorted in ascending order, descending order, or neither.
 

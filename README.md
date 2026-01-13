@@ -5,6 +5,14 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 13 - Odd or Even?
+Given a positive integer, return "Odd" if it's an odd number, and "Even" is it's even.
+
+function oddOrEven(n) {
+
+  return n % 2 == 0 ? "Even" : "Odd";
+}
+
 ### 12 - Plant the Crop
 Given an integer representing the size of your farm field, and "acres" or "hectares" representing the unit for the size of your farm field, and a type of crop, determine how many plants of that type you can fit in your field.
 - 1 acre equals 4046.86 square meters.

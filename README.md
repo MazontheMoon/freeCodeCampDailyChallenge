@@ -5,6 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 14 - Markdown Link Parser
+Given the string of a link in Markdown, return the equivalent HTML string.
+
+A Markdown image has the following format: "[link_text](link_url)". Return the string of the HTML a tag with the href set to the link_url and the link_text as the tag content.
+
+For example, given "[freeCodeCamp](https://freecodecamp.org/)" return '<a href="https://freecodecamp.org/">freeCodeCamp</a>';
+
+function parseLink(markdown) {...}
+
 ### 13 - Odd or Even?
 Given a positive integer, return "Odd" if it's an odd number, and "Even" is it's even.
 

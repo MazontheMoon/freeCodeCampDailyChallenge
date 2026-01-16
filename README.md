@@ -5,6 +5,14 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 16 - Integer Hypotenuse
+Given two positive integers representing the lengths for the two legs (the two short sides) of a right triangle, determine whether the hypotenuse is an integer.
+
+The length of the hypotenuse is calculated by adding the squares of the two leg lengths together and then taking the square root of that total (a2 + b2 = c2).
+
+### 15 - Array Swap
+Given an array with two values, return an array with the values swapped.
+
 ### 14 - Markdown Link Parser
 Given the string of a link in Markdown, return the equivalent HTML string.
 

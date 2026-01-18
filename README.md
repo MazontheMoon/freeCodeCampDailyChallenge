@@ -5,6 +5,46 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 18 - Free Shipping
+Given an array of strings representing items in your shopping cart, and a number for the minimum order amount to qualify for free shipping, determine if the items in your shopping cart qualify for free shipping.
+
+The given array will contain items from the list below:
+Item		Price
+"shirt"		34.25
+"jeans"		48.50
+"shoes"		75.00
+"hat"		19.95
+"socks"		15.00
+"jacket"	109.95
+
+Given an array of strings representing items in your shopping cart, and a number for the minimum order amount to qualify for free shipping, determine if the items in your shopping cart qualify for free shipping.
+
+The given array will contain items from the list below:
+Item		Price
+"shirt"		34.25
+"jeans"		48.50
+"shoes"		75.00
+"hat"		19.95
+"socks"		15.00
+"jacket"	109.95
+
+### 17 - Knight Moves
+Given the position of a knight on a chessboard, return the number of valid squares the knight can move to.
+
+A standard chessboard is 8x8, with columns labeled A through H (left to right) and rows labeled 1 through 8 (bottom to top). It looks like this:
+A8	B8	C8	D8	E8	F8	G8	H8
+A7	B7	C7	D7	E7	F7	G7	H7
+A6	B6	C6	D6	E6	F6	G6	H6
+A5	B5	C5	D5	E5	F5	G5	H5
+A4	B4	C4	D4	E4	F4	G4	H4
+A3	B3	C3	D3	E3	F3	G3	H3
+A2	B2	C2	D2	E2	F2	G2	H2
+A1	B1	C1	D1	E1	F1	G1	H1
+
+A knight moves in an "L" shape: two squares in one direction (horizontal or vertical), and one square in the perpendicular direction.
+
+This means a knight can move to up to eight possible positions, but fewer when near the edges of the board. For example, if a knight was at A1, it could only move to B3 or C2.
+
 ### 16 - Integer Hypotenuse
 Given two positive integers representing the lengths for the two legs (the two short sides) of a right triangle, determine whether the hypotenuse is an integer.
 

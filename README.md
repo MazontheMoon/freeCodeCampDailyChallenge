@@ -5,6 +5,18 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 19 - Energy Consumption
+Given the number of Calories burned during a workout, and the number of watt-hours used by your electronic devices during that workout, determine which one used more energy.
+
+To compare them, convert both values to joules using the following conversions:
+- 1 Calorie equals 4184 joules.
+- 1 watt-hour equals 3600 joules.
+
+Return:
+- "Workout" if the workout used more energy.
+- "Devices" if the device used more energy.
+- "Equal" if both used the same amount of energy.
+
 ### 18 - Free Shipping
 Given an array of strings representing items in your shopping cart, and a number for the minimum order amount to qualify for free shipping, determine if the items in your shopping cart qualify for free shipping.
 

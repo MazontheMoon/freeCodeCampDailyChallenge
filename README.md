@@ -5,6 +5,12 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 20 - Consonant Case
+Given a string representing a variable name, convert it to consonant case using the following rules:
+- All consonants should be converted to uppercase.
+- All vowels (a, e, i, o, u in any case) should be converted to lowercase.
+- All hyphens (-) should be converted to underscores (_).
+
 ### 19 - Energy Consumption
 Given the number of Calories burned during a workout, and the number of watt-hours used by your electronic devices during that workout, determine which one used more energy.
 

@@ -5,6 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 21 - Markdown Inline Code Parser
+Given a string of Markdown that includes one or more inline code blocks, return the equivalent HTML string.
+
+Inline code blocks in Markdown use a single backtick (`) at the start and end of the code block text.
+
+Return the given string with all code blocks converted to HTML code tags.
+
+For example, given the string "Use `let` to declare the variable.", return "Use <code>let</code> to declare the variable.".
+
 ### 20 - Consonant Case
 Given a string representing a variable name, convert it to consonant case using the following rules:
 - All consonants should be converted to uppercase.

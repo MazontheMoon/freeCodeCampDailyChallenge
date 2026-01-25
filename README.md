@@ -5,6 +5,29 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 25 - Scaled Image
+Given a string representing the width and height of an image, and a number to scale the image, return the scaled width and height.
+
+The input string is in the format "WxH". For example, "800x600".
+The scale is a number to multiply the width and height by.
+Return the scaled dimensions in the same "WxH" format
+
+Given a string representing the width and height of an image, and a number to scale the image, return the scaled width and height.
+
+The input string is in the format "WxH". For example, "800x600".
+The scale is a number to multiply the width and height by.
+Return the scaled dimensions in the same "WxH" format
+
+### 24 - Bingo! Letter
+Given a number, return the bingo letter associated with it (capitalized). Bingo numbers are grouped as follows:
+
+Letter	Number Range
+"B"		1-15
+"I"		16-30
+"N"		31-45
+"G"		46-60
+"O"		61-75
+
 ### 23 - Hex Validator
 Given a string, determine whether it is a valid CSS hex color. A valid CSS hex color must:
 - Start with a #, and

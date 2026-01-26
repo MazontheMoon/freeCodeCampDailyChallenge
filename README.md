@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 26 - FizzBuzz Mini
+Given an integer, return a string based on the following rules:
+- If the number is divisible by 3, return "Fizz".
+- If the number is divisible by 5, return "Buzz".
+- If the number is divisible by both 3 and 5, return "FizzBuzz".
+- Otherwise, return the given number as a string.
+
 ### 25 - Scaled Image
 Given a string representing the width and height of an image, and a number to scale the image, return the scaled width and height.
 

@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 27 - Odd or Even Day
+Given a timestamp (number of milliseconds since the Unix epoch), return:
+- "odd" if the day of the month for that timestamp is odd.
+- "even" if the day of the month for that timestamp is even.
+
+For example, given 1769472000000, a timestamp for January 27th, 2026, return "odd" because the day number (27) is an odd number.
+
 ### 26 - FizzBuzz Mini
 Given an integer, return a string based on the following rules:
 - If the number is divisible by 3, return "Fizz".

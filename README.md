@@ -5,6 +5,9 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 28 - Flatten the Array
+Given an array that contains nested arrays, return a new array with all values flattened into a single, one-dimensional array. Retain the original order of the items in the arrays.
+
 ### 27 - Odd or Even Day
 Given a timestamp (number of milliseconds since the Unix epoch), return:
 - "odd" if the day of the month for that timestamp is odd.

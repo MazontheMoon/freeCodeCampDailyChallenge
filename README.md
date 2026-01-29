@@ -5,6 +5,9 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## January
 
+### 29 - Letters-Numbers
+Given a string containing only letters and numbers, return a new string where a hyphen (-) is inserted every time the string switches from a letter to a number, or a number to a letter.
+
 ### 28 - Flatten the Array
 Given an array that contains nested arrays, return a new array with all values flattened into a single, one-dimensional array. Retain the original order of the items in the arrays.
 

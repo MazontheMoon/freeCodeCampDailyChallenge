@@ -3,7 +3,69 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
+## February
+
+### 5 - Pocket Change
+Given an array of integers representing the coins in your pocket, with each integer being the value of a coin in cents, return the total amount in the format "$D.CC".
+
+100 cents equals 1 dollar.
+In the return value, include a leading zero for amounts less than one dollar and always exactly two digits for the cents.
+
+### 4 - Truncate the Text
+Given a string, return it as-is if it's 20 characters or shorter. If it's longer than 20 characters, truncate it to the first 17 characters and append "..." to the end of it (so it's 20 characters total) and return the result.
+
+function truncateText(text) {
+  if (text.length <= 20) {
+    return text;
+  }
+
+  return text.slice(0, 17) + "...";
+}
+
+### 3 - String Mirror
+Given a string, return a new string that consists of the given string with a reversed copy of itself appended to the end of it.
+
+function mirror(str) {
+  const reversed = str.split("").reverse().join("");
+  return str + reversed;
+}
+
+### 2 - Groundhog Day
+Today is Groundhog Day, in which a groundhog predicts the weather based on whether or not it sees its shadow.
+
+Given a value representing the groundhog's appearance, return the correct prediction:
+- If the given value is the boolean true (the groundhog saw its shadow), return "Looks like we'll have six more weeks of winter.".
+- If the value is the boolean false (the groundhog did not see its shadow), return "It's going to be an early spring.".
+- If the value is anything else (the groundhog did not show up), return "No prediction this year.".
+
+### 1 - Digital Detox
+Given an array of your login logs, determine whether you have met your digital detox goal.
+
+Each log is a string in the format "YYYY-MM-DD HH:mm:ss".
+
+You have met your digital detox goal if both of the following statements are true:
+- You logged in no more than once within any four-hour period.
+- You logged in no more than 2 times on any single day.
+
 ## January
+
+### 31 - Zodiac
+Given a date string in the format "YYYY-MM-DD", return the zodiac sign for that date using the following chart:
+
+Date Range	Zodiac Sign
+March 21 - April 19	"Aries"
+April 20 - May 20	"Taurus"
+May 21 - June 20	"Gemini"
+June 21 - July 22	"Cancer"
+July 23 - August 22	"Leo"
+August 23 - September 22	"Virgo"
+September 23 - October 22	"Libra"
+October 23 - November 21	"Scorpio"
+November 22 - December 21	"Sagittarius"
+December 22 - January 19	"Capricorn"
+January 20 - February 18	"Aquarius"
+February 19 - March 20	"Pisces"
+Zodiac signs are based only on the month and day, you can ignore the year.
 
 ### 30 - Valid Pawn Moves
 Given the position of one of your pawns on a chessboard, return an array of all the valid squares it can move to in ascending order.

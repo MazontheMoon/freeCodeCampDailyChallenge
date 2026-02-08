@@ -5,6 +5,123 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 8 - 2026 Winter Games Day 3: Biathlon
+Given an array of integers, where each value represents the number of targets hit in a single round of a biathlon, return the total penalty distance the athlete must ski.
+- Each round consists of 5 targets.
+- Each missed target results in a 150 meter penalty loop.
+
+### 7 - 2026 Winter Games Day 2: Snowboarding
+Given a snowboarder's starting stance and a rotation in degrees, determine their landing stance.
+- A snowboarder's stance is either "Regular" or "Goofy".
+- Trick rotations are multiples of 90 degrees. Positive indicates clockwise rotation, and negative indicate counter-clockwise rotation.
+- The landing stance flips every 180 degrees of rotation.
+
+For example, given "Regular" and 90, return "Regular". Given "Regular" and 180 degrees, return "Goofy".
+
+A snowboarder's stance is either "Regular" or "Goofy".
+Trick rotations are multiples of 90 degrees. Positive indicates clockwise rotation, and negative indicate counter-clockwise rotation.
+The landing stance flips every 180 degrees of rotation.
+For example, given "Regular" and 90, return "Regular". Given "Regular" and 180 degrees, return "Goofy".
+
+### 6 - 2026 Winter Games Day 1: Opening Day
+Today marks the start of the 2026 Winter Games. The next 17 days will bring you coding challenges inspired by them.
+
+For the first one, you are given a two-letter country code and need to return the flag emoji for that country.
+
+Use this list:
+Country	Code	Flag
+Albania	"AL"	"🇦🇱"
+Andorra	"AD"	"🇦🇩"
+Argentina	"AR"	"🇦🇷"
+Armenia	"AM"	"🇦🇲"
+Australia	"AU"	"🇦🇺"
+Austria	"AT"	"🇦🇹"
+Azerbaijan	"AZ"	"🇦🇿"
+Belgium	"BE"	"🇧🇪"
+Benin	"BJ"	"🇧🇯"
+Bolivia	"BO"	"🇧🇴"
+Bosnia and Herzegovina	"BA"	"🇧🇦"
+Brazil	"BR"	"🇧🇷"
+Bulgaria	"BG"	"🇧🇬"
+Canada	"CA"	"🇨🇦"
+Chile	"CL"	"🇨🇱"
+China	"CN"	"🇨🇳"
+Colombia	"CO"	"🇨🇴"
+Croatia	"HR"	"🇭🇷"
+Cyprus	"CY"	"🇨🇾"
+Czech Republic	"CZ"	"🇨🇿"
+Denmark	"DK"	"🇩🇰"
+Ecuador	"EC"	"🇪🇨"
+Eritrea	"ER"	"🇪🇷"
+Estonia	"EE"	"🇪🇪"
+Finland	"FI"	"🇫🇮"
+France	"FR"	"🇫🇷"
+Georgia	"GE"	"🇬🇪"
+Germany	"DE"	"🇩🇪"
+Great Britain	"GB"	"🇬🇧"
+Greece	"GR"	"🇬🇷"
+Guinea-Bissau	"GW"	"🇬🇼"
+Haiti	"HT"	"🇭🇹"
+Hong Kong	"HK"	"🇭🇰"
+Hungary	"HU"	"🇭🇺"
+Iceland	"IS"	"🇮🇸"
+India	"IN"	"🇮🇳"
+Iran	"IR"	"🇮🇷"
+Ireland	"IE"	"🇮🇪"
+Israel	"IL"	"🇮🇱"
+Italy	"IT"	"🇮🇹"
+Jamaica	"JM"	"🇯🇲"
+Japan	"JP"	"🇯🇵"
+Kazakhstan	"KZ"	"🇰🇿"
+Kenya	"KE"	"🇰🇪"
+Kosovo	"XK"	"🇽🇰"
+Kyrgyzstan	"KG"	"🇰🇬"
+Latvia	"LV"	"🇱🇻"
+Lebanon	"LB"	"🇱🇧"
+Liechtenstein	"LI"	"🇱🇮"
+Lithuania	"LT"	"🇱🇹"
+Luxembourg	"LU"	"🇱🇺"
+Madagascar	"MG"	"🇲🇬"
+Malaysia	"MY"	"🇲🇾"
+Malta	"MT"	"🇲🇹"
+Mexico	"MX"	"🇲🇽"
+Moldova	"MD"	"🇲🇩"
+Monaco	"MC"	"🇲🇨"
+Mongolia	"MN"	"🇲🇳"
+Montenegro	"ME"	"🇲🇪"
+Morocco	"MA"	"🇲🇦"
+Netherlands	"NL"	"🇳🇱"
+New Zealand	"NZ"	"🇳🇿"
+Nigeria	"NG"	"🇳🇬"
+North Macedonia	"MK"	"🇲🇰"
+Norway	"NO"	"🇳🇴"
+Pakistan	"PK"	"🇵🇰"
+Philippines	"PH"	"🇵🇭"
+Poland	"PL"	"🇵🇱"
+Portugal	"PT"	"🇵🇹"
+Puerto Rico	"PR"	"🇵🇷"
+Romania	"RO"	"🇷🇴"
+San Marino	"SM"	"🇸🇲"
+Saudi Arabia	"SA"	"🇸🇦"
+Serbia	"RS"	"🇷🇸"
+Singapore	"SG"	"🇸🇬"
+Slovakia	"SK"	"🇸🇰"
+Slovenia	"SI"	"🇸🇮"
+South Africa	"ZA"	"🇿🇦"
+South Korea	"KR"	"🇰🇷"
+Spain	"ES"	"🇪🇸"
+Sweden	"SE"	"🇸🇪"
+Switzerland	"CH"	"🇨🇭"
+Thailand	"TH"	"🇹🇭"
+Trinidad & Tobago	"TT"	"🇹🇹"
+Turkey	"TR"	"🇹🇷"
+Ukraine	"UA"	"🇺🇦"
+United Arab Emirates	"AE"	"🇦🇪"
+United States	"US"	"🇺🇸"
+Uruguay	"UY"	"🇺🇾"
+Uzbekistan	"UZ"	"🇺🇿"
+Venezuela	"VE"	"🇻🇪"
+
 ### 5 - Pocket Change
 Given an array of integers representing the coins in your pocket, with each integer being the value of a coin in cents, return the total amount in the format "$D.CC".
 

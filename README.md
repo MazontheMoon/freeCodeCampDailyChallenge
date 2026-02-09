@@ -5,6 +5,25 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 9 - 2026 Winter Games Day 4: Ski Jumping
+Given distance points, style points, a wind compensation value, and K-point bonus value, calculate your score for the ski jump and determine if you won a medal or not.
+
+Your score is calculated by summing the above four values.
+The current total scores of the other jumpers are:
+
+165.5
+172.0
+158.0
+180.0
+169.5
+175.0
+162.0
+170.0
+If your score is the best, return "Gold"
+If it's second best, return "Silver"
+If it's third best, return "Bronze"
+Otherwise, return "No Medal"
+
 ### 8 - 2026 Winter Games Day 3: Biathlon
 Given an array of integers, where each value represents the number of targets hit in a single round of a biathlon, return the total penalty distance the athlete must ski.
 - Each round consists of 5 targets.

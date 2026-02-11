@@ -5,6 +5,22 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 11 - 2026 Winter Games Day 6: Figure Skating
+Given an array of judge scores and optional penalties, calculate the final score for a figure skating routine.
+
+The first argument is an array of 10 judge scores, each a number from 0 to 10. Remove the highest and lowest judge scores and sum the remaining 8 scores to get the base score.
+
+Any additional arguments passed to the function are penalties. Subtract all penalties from the base score to get the final score.
+
+### 10 - 2026 Winter Games Day 5: Cross-Country Skiing
+Given an array of finish times for a cross-country ski race, convert them into times behind the winner.
+- Given times are strings in "H:MM:SS" format.
+- Given times will be in order from fastest to slowest.
+- The winners time (fastest time) should correspond to "0".
+- Each other time should show the time behind the winner, in the format "+M:SS".
+
+For example, given ["1:25:32", "1:26:10", "1:27:05"], return ["0", "+0:38", "+1:33"].
+
 ### 9 - 2026 Winter Games Day 4: Ski Jumping
 Given distance points, style points, a wind compensation value, and K-point bonus value, calculate your score for the ski jump and determine if you won a medal or not.
 

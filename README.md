@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 12 - 2026 Winter Games Day 7: Speed Skating
+Given two arrays representing the lap times (in seconds) for two speed skaters, return the lap number where the difference in lap times is the largest.
+
+The first element of each array corresponds to lap 1, the second to lap 2, and so on.
+
 ### 11 - 2026 Winter Games Day 6: Figure Skating
 Given an array of judge scores and optional penalties, calculate the final score for a figure skating routine.
 

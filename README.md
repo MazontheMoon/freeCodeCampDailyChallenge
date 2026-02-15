@@ -5,6 +5,72 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 15 - 2026 Winter Games Day 10: Alpine Skiing
+Given a ski hill's vertical drop, horizontal distance, and type, determine the difficulty rating of the hill.
+
+To determine the rating:
+- Calculate the steepness of the hill by taking the drop divided by the distance.
+- Then, calculate the adjusted steepness based on the hill type:
+	- "Downhill" multiply steepness by 1.2
+	- "Slalom": multiply steepness by 0.9
+	- "Giant Slalom": multiply steepness by 1.0
+
+Return:
+- "Green" if the adjusted steepness is less than or equal to 0.1
+- "Blue" if the adjusted steepness is greater than 0.1 and less than or equal to 0.25
+- "Black" if the adjusted steepness is greater than 0.25
+
+### 14 - 2026 Winter Games Day 9: Skeleton
+Given a string representing the curves on a skeleton track, determine the difficulty of the track.
+
+The given string will only consist of the letters:
+- "L" for a left turn
+- "R" for a right turn
+- "S" for a straight segment
+Each direction change adds 15 points (an "L" followed by an "R" or vice versa).
+
+All other curves add 5 points each (all other "L" or "R" characters).
+
+Straight segments add 0 points.
+
+The difficulty of the track is based on the total score. Return:
+- "Easy" if the total is 0 - 100
+- "Medium" if the total is 101-200
+- "Hard" if the total is over 200
+
+2026 Winter Games Day 9: Skeleton
+Given a string representing the curves on a skeleton track, determine the difficulty of the track.
+
+The given string will only consist of the letters:
+- "L" for a left turn
+- "R" for a right turn
+- "S" for a straight segment
+Each direction change adds 15 points (an "L" followed by an "R" or vice versa).
+
+All other curves add 5 points each (all other "L" or "R" characters).
+
+Straight segments add 0 points.
+
+The difficulty of the track is based on the total score. Return:
+- "Easy" if the total is 0 - 100
+- "Medium" if the total is 101-200
+- "Hard" if the total is over 200
+
+### 13 - 2026 Winter Games Day 8: Luge
+Given an array of five numbers, each representing the time (in seconds) it took a luger to complete a segment of a track, determine which segment had the fastest speed and what that speed was.
+
+The track is divided into the following segments:
+- Segment 1: 320 meters
+- Segment 2: 280 meters
+- Segment 3: 350 meters
+- Segment 4: 300 meters
+- Segment 5: 250 meters
+The first value in the given array corresponds to the time for segment 1, the second value to segment 2, and so on.
+
+To calculate the speed (in meters per second) for a segment, divide the distance by the time.
+
+Return "The luger's fastest speed was X m/s on segment Y.". Where X is the fastest speed, rounded to two decimal places, and Y is the segment number where the fastest speed occurred.
+
 ### 12 - 2026 Winter Games Day 7: Speed Skating
 Given two arrays representing the lap times (in seconds) for two speed skaters, return the lap number where the difference in lap times is the largest.
 

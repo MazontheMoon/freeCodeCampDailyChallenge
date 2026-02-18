@@ -5,6 +5,14 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 18 - 2026 Winter Games Day 13: Nordic Combined
+Given an array of jump scores for athletes, calculate their start delay times for the cross-country portion of the Nordic Combined.
+
+The athlete with the highest jump score starts first (0 second delay). All other athletes start later based on how far behind their jump score is compared to the best jump.
+
+To calculate the delay for each athlete, subtract the athlete's jump score from the best overall jump score and multiply the result by 1.5. Round the delay up to the nearest integer.
+
+
 ### 17 - 2026 Winter Games Day 12: Bobsled
 Given an array representing the weights of the athletes on a bobsled team and a number representing the weight of the bobsled, determine whether the team is eligible to race.
 

@@ -5,6 +5,18 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 19 - 2026 Winter Games Day 14: Ski Mountaineering
+Given the snow depth and slope of a mountain, determine if there's an avalanche risk.
+
+The snow depth values are "Shallow", "Moderate", or "Deep".
+Slope values are "Gentle", "Steep", or "Very Steep".
+Return "Safe" or "Risky" based on this table:
+
+           "Shallow"	"Moderate"	"Deep"
+"Gentle"	"Safe"	"Safe"	"Safe"
+"Steep"	"Safe"	"Risky"	"Risky"
+"Very Steep"	"Safe"	"Risky"	"Risky"
+
 ### 18 - 2026 Winter Games Day 13: Nordic Combined
 Given an array of jump scores for athletes, calculate their start delay times for the cross-country portion of the Nordic Combined.
 

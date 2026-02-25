@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## February
 
+### 25 - Sequential Difference
+Given an array of numbers, return a new array containing the value needed to get from each number to the next number.
+
+For the last number, use 0 since there is no next number.
+For example, given [1, 2, 4, 7], return [1, 2, 3, 0].
+
+
 ### 24 - Business Day Count
 Given a start date and an end date, return the number of business days between the two.
 

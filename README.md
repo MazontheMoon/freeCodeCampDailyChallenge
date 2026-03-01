@@ -3,7 +3,21 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
+## March
+
+### 1 - Flattened
+Given an array, determine if it is flat.
+
+An array is flat if none of its elements are arrays.
+
 ## February
+
+### 28 - Add Punctuation
+Given a string of sentences with missing periods, add a period (".") in the following places:
+
+Before each space that comes immediately before an uppercase letter
+And at the end of the string
+Return the resulting string.
 
 ### 27 - Matrix Shift
 Given a matrix (array of arrays) of numbers and an integer, shift all values in the matrix by the given amount.

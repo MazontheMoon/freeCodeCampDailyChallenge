@@ -5,6 +5,105 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 9 - Array Sum
+Given an array of numbers, return the sum of all the numbers.
+
+### 8 - HSL Validator
+Given a string, determine whether it is a valid CSS hsl() color value.
+
+A valid HSL value must be in the format "hsl(h, s%, l%)", where:
+- h (hue) must be a number between 0 and 360 (inclusive).
+- s (saturation) must be a percentage between 0% and 100%.
+- l (lightness) must be a percentage between 0% and 100%.
+
+Spaces are only allowed:
+- After the opening parenthesis
+- Before and/or after the commas
+- Before and/or after closing parenthesis
+
+Optionally, the value can end with a semi-colon (";").
+
+For example, "hsl(240, 50%, 50%)" is a valid HSL value.
+
+
+### 7 - Element Size
+Given a window size, the width of an element in viewport width "vw" units, and the height of an element in viewport height "vh" units, determine the size of the element in pixels.
+- The given window size and returned element size are strings in the format "width x height", "1200 x 800" for example.
+- "vw" units are the percent of window width. "50vw" for example, is 50% of the width of the window.
+- "vh" units are the percent of window height. "50vh" for example, is 50% of the height of the window.
+
+
+### 6 - Trail Traversal
+Given an array of strings representing your trail map, return a string of the moves needed to get to your goal.
+
+The given strings will contain the values:
+
+- "C": Your current location
+- "G": Your goal
+- "T": Traversable parts of the trail
+- "-": Untraversable parts of the map
+Return a string with the moves needed to follow the trail from your location to your goal where:
+- "R" is a move right
+- "D" is a move down
+- "L" is a move left
+- "U" is a move up
+
+There will always be a single continuous trail, without any branching, from your current location to your goal.
+
+Each trail location will have a maximum of two traversable locations touching it.
+
+For example, given:
+
+[
+  "-CT--",
+  "--T--",
+  "--TT-",
+  "---T-",
+  "---G-"
+]
+Return "RDDRDD".
+
+### 5 - Smallest Gap
+Given a string, return the substring between the two identical characters that have the smallest number of characters between them (smallest gap).
+
+- There will always be at least one pair of matching characters.
+- The returned substring should exclude the matching characters.
+- If two or more gaps are the same length, return the characters from the first one.
+
+For example, given "ABCDAC", return "DA".
+- Only "A" and "C" repeat in the string.
+- The number of characters between the two "A" characters is 3, and between the "C" characters is 2.
+- So return the string between the two "C" characters.
+
+### 4 - Playing Card Values
+Given an array of playing cards, return a new array with the numeric value of each card.
+
+Card Values:
+- An Ace ("A") has a value of 1.
+- Numbered cards ("2" - "10") have their face value: 2 - 10, respectively.
+- Face cards: Jack ("J"), Queen ("Q"), and King ("K") are each worth 10.
+
+Suits:
+Each card has a suit: Spades ("S"), Clubs ("C"), Diamonds ("D"), or Hearts ("H").
+
+Card Format:
+- Each card is represented as a string: "valueSuit". For Example: "AS" is the Ace of Spades, "10H" is the Ten of Hearts, and "QC" is the Queen of Clubs.
+
+
+### 3 - Perfect Cube Count
+Given two integers, determine how many perfect cubes exist in the range between and including the two numbers.
+
+- The lower number is not garanteed to be the first argument.
+- A number is a perfect cube if there exists an integer (n) where n * n * n = number. For example, 27 is a perfect cube because 3 * 3 * 3 = 27.
+
+### 2 - Sum the Letters
+Given a string, return the sum of its letters.
+
+- Letters are A-Z in uppercase or lowercase
+- Letter values are: "A" = 1, "B" = 2, ..., "Z" = 26
+- Uppercase and lowercase letters have the same value.
+- Ignore all non-letter characters.
+
 ### 1 - Flattened
 Given an array, determine if it is flat.
 

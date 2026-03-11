@@ -5,6 +5,17 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 11 - Array Insertion
+Given an array, a value to insert into the array, and an index to insert the value at, return a new array with the value inserted at the specified index.
+
+### 10 - Word Length Converter
+Given a string of words, return a new string where each word is replaced by its length.
+
+Words in the given string will be separated by a single space
+Keep the spaces in the returned string.
+For example, given "hello world", return "5 5".
+
+
 ### 9 - Array Sum
 Given an array of numbers, return the sum of all the numbers.
 

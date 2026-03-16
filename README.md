@@ -5,6 +5,54 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 16 - Evenly Divisible
+
+Given two integers, determine if you can evenly divide the first one by the second one.
+
+### 15 - Captured Chess Pieces
+Given an array of strings representing chess pieces you still have on the board, calculate the value of the pieces your opponent has captured.
+
+In chess, you start with 16 pieces:
+
+Piece	Abbreviation	Quantity	Value
+Pawn	"P"				8			1
+Rook	"R"				2			5
+Knight	"N"				2			3
+Bishop	"B"				2			3
+Queen	"Q"				1			9
+King	"K"				1			0
+- The given array will only contain the abbreviations above.
+- Any of the 16 pieces not included in the given array have been captured.
+- Return the total value of all captured pieces, unless...
+- If the King has been captured, return "Checkmate".
+
+### 14 -  Pi Day
+
+Happy pi (π) day!
+
+Given an integer (n), where n is between 1 and 1000 (inclusive), return the nth decimal of π.
+
+Make sure to return a number not a string.
+π with its first five decimals is 3.14159. So given 5 for example, return 9, the fifth decimal.
+
+You may have to find the first 1000 decimals of π somewhere.
+
+### 13 - Parking Fee Calculator
+
+Given two strings representing the time you parked your car and the time you picked it up, calculate the parking fee.
+
+- The given strings will be in the format "HH:MM" using a 24-hour clock. So "14:00" is 2pm for example.
+- The first string will be the time you parked your car, and the second will be the time you picked it up.
+- If the pickup time is earlier than the entry time, it means the parking spanned past midnight into the next day.
+
+Fee rules:
+- Each hour parked costs $3.
+- Partial hours are rounded up to the next full hour.
+- If the parking spans overnight (past midnight), an additional $10 overnight fee is applied.
+- There is a minimum fee of $5 (only used if the total would be less than $5).
+
+Return the total cost in the format "$cost", "$5" for example.
+
 ### 12 - Domino Chain Validator
 Given a 2D array representing a sequence of dominoes, determine whether it forms a valid chain.
 

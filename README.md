@@ -9,6 +9,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 Given two integers, determine if you can evenly divide the first one by the second one.
 
+function isEvenlyDivisible(a, b) {
+
+  return a%b == 0;
+}
+
 ### 15 - Captured Chess Pieces
 Given an array of strings representing chess pieces you still have on the board, calculate the value of the pieces your opponent has captured.
 

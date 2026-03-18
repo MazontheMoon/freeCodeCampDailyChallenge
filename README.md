@@ -5,6 +5,30 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 18 - Largest Number
+
+Given a string of numbers separated by various punctuation, return the largest number.
+
+- The given string will only contain numbers and separators.
+- Separators can be commas (","), exclamation points ("!"), question marks ("?"), colons (":"), or semi-colons (";").
+
+
+### 17 - Anniversary Milestones
+
+Given an integer representing the number of years a couple has been married, return their most recent anniversary milestone according to this chart:
+
+Years Married	Milestone
+1				"Paper"
+5				"Wood"
+10				"Tin"
+25				"Silver"
+40				"Ruby"
+50				"Gold"
+60				"Diamond"
+70				"Platinum"
+If they haven't reached the first milestone, return "Newlyweds".
+
+
 ### 16 - Evenly Divisible
 
 Given two integers, determine if you can evenly divide the first one by the second one.

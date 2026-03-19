@@ -5,6 +5,21 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 19 - Inverted Matrix
+Given a matrix (an array of arrays) filled with two distinct values, return a new matrix where all occurrences of one value are swapped with the other.
+
+For example, given:
+[
+  ["a", "b"],
+  ["a", "a"]
+]
+
+Return:
+[
+  ["b", "a"],
+  ["b", "b"]
+]
+
 ### 18 - Largest Number
 
 Given a string of numbers separated by various punctuation, return the largest number.

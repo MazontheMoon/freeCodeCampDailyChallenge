@@ -5,6 +5,59 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## March
 
+### 23 - No Consecutive Repeats - 
+
+Given a string, determine if it has no repeating characters.
+
+A string has no repeats if it does not have the same character two or more times in a row.
+
+### 22 - Coffee Roast Detector
+Given a string representing the beans used to make a cup of coffee, determine the roast of the cup.
+
+- The given string will contain the following characters, each representing a type of bean:
+	- An apostrophe (') is a light roast bean worth 1 point each.
+	- A dash (-) is a medium roast bean worth 2 points each.
+	- A period (.) is a dark roast bean worth 3 points each.
+- The roast level is determined by the average of all the beans.
+
+Return:
+"Light" if the average is less than 1.75.
+"Medium" if the average is 1.75 to 2.5.
+"Dark" if the average is greater than 2.5.
+
+
+### 21 - QR Decoder
+Given a 6x6 matrix (array of arrays), representing a QR code, return the string of binary data in the code.
+
+- The QR code may be given in any rotation of 90 degree increments.
+- A correctly oriented code has a 2x2 group of 1's (orientation markers) in the bottom-left, top-left, and top-right corners.
+- The three 2x2 orientation markers are not part of the binary data.
+- The binary data is read left-to-right, top-to-bottom (like a book) when the QR code is correctly oriented.
+- A code will always have exactly one valid orientation.
+
+For example, given:
+
+[
+  "110011",
+  "110011",
+  "000000",
+  "000000",
+  "110000",
+  "110001"
+]
+or given the same code with a different orientation:
+
+[
+  "110011",
+  "110011",
+  "000000",
+  "000000",
+  "000011",
+  "100011"
+]
+Return "000000000000000000000001", all the binary data excluding the three 2x2 orientation markers.
+
+
 ### 20 - Equinox Shadows
 Today is the equinox, when the sun is directly above the equator and perfectly overhead at noon. Given a time, determine the shadow cast by a 4-foot vertical pole.
 

@@ -3,13 +3,25 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
-## March
+## 26 - Movie Night
+Given a string for the day of the week, another string for a showtime, and an integer number of tickets, return the total cost of the movie tickets for that showing.
 
-## 36 - Fundraiser Event Organizer
+The given day will be one of:
+-"Monday"
+-"Tuesday"
+-"Wednesday"
+-"Thursday"
+-"Friday"
+-"Saturday"
+-"Sunday"
 
-Create a program that helps organize a community fundraiser by processing three key tasks: count how many donations match the first donation amount, sort volunteer shift codes (M for morning, A for afternoon) so all Ms come before As, and check if your fundraising goal and actual amount raised differ by at most $5.
+The showtime will be given in the format "H:MMam" or "H:MMpm". For example "10:00am" or "10:00pm".
 
-You'll receive donation amounts, volunteer shift codes, and two dollar amounts. Print the count of matching donations, the sorted volunteer codes, and whether the goal was met.
+Return the total cost in the format "$D.CC" using these rules:
+- Weekend (Friday - Sunday): $12.00 per ticket.
+- Weekday (Monday - Thursday): $10.00 per ticket.
+- Matinee (before 5:00pm): subtract $2.00 per ticket (except on Tuesdays).
+- Tuesdays: all tickets are $5.00 each.
 
 ### 25 - Cooldown Time
 Given two timestamps, the first representing when a user finished an exam, and the second representing the current time, determine whether the user can take an exam again.
@@ -18,7 +30,11 @@ Given two timestamps, the first representing when a user finished an exam, and t
 - A user must wait at least 48 hours before retaking an exam.
 
 
-### 24 - 
+### 24 - Cooldown Time
+Given two timestamps, the first representing when a user finished an exam, and the second representing the current time, determine whether the user can take an exam again.
+
+Both timestamps will be given the format: "YYYY-MM-DDTHH:MM:SS", for example "2026-03-25T14:00:00". Note that the time is 24-hour clock.
+A user must wait at least 48 hours before retaking an exam.
 
 ### 23 - No Consecutive Repeats - 
 

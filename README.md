@@ -3,7 +3,66 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
-## 26 - Movie Night
+## April
+
+### 2 - Capitalized Fibonacci
+Given a string, return a new string where each letter is capitalized if its index is a Fibonacci number, and lowercased otherwise.
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. The first 10 numbers in the sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
+- The first character is at index 0.
+- If the index of non-letter characters is a Fibonacci number, leave it unchanged.
+
+### 1 - Prank Number
+Given an array of numbers where all but one number follow a pattern, return a new array with the one number that doesn't follow the pattern fixed.
+
+The pattern will be one of:
+- The numbers increase from one to the next by a fixed amount (addition).
+- The numbers decrease from one to the next by a fixed amount (subtraction).
+For example, given [2, 4, 7, 8, 10] return [2, 4, 6, 8, 10].
+
+## March
+
+### 30 - Wake-Up Alarm:
+Given a string representing the time you set your alarm and a string representing the time you actually woke up, determine if you woke up early, on time, or late.
+
+Both times will be given in "HH:MM" 24-hour format.
+Return:
+- "early" if you woke up before your alarm time.
+- "on time" if you woke up at your alarm time, or within the 10 minute snooze window after the alarm time.
+- "late" if you woke up more than 10 minutes after your alarm time.
+Both times are on the same day.
+
+### 29 - Due Date
+Given a date string, return the date 9 months in the future.
+- The given and return strings have the format "YYYY-MM-DD".
+- If the month nine months into the future doesn't contain the original day number, return the last day of that month.
+
+### 28 - ISBN-10 Validator
+Given a string, determine if it's a valid ISBN-10.
+
+An ISBN-10 consists of hyphens ("-") and 10 other characters. After removing the hyphens ("-"):
+- The first 9 characters must be digits, and
+- The final character may be a digit or the letter "X", which represents the number 10.
+
+To validate it:
+- Multiply each digit (or value) by its position (multiply the first digit by 1, the second by 2, and so on).
+- Add all the results together.
+- If the total is divisible by 11, it's valid.
+
+### 27 - Pascal's Triangle Row
+Given an integer n, return the nth row of Pascal's triangle as an array.
+
+In Pascal's Triangle, each row begins and ends with 1, and each interior value is the sum of the two values directly above it.
+
+Here's the first 5 rows of the triangle:
+
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+### 26 - Movie Night
 Given a string for the day of the week, another string for a showtime, and an integer number of tickets, return the total cost of the movie tickets for that showing.
 
 The given day will be one of:

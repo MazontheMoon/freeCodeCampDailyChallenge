@@ -5,6 +5,87 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 10 - Rook Attack
+Given two strings for the location of two rooks on a chess board, determine if they can attack each other.
+
+A standard chessboard is 8x8, with columns labeled A through H (left to right) and rows labeled 1 through 8 (bottom to top). It looks like this:
+
+A8	B8	C8	D8	E8	F8	G8	H8
+A7	B7	C7	D7	E7	F7	G7	H7
+A6	B6	C6	D6	E6	F6	G6	H6
+A5	B5	C5	D5	E5	F5	G5	H5
+A4	B4	C4	D4	E4	F4	G4	H4
+A3	B3	C3	D3	E3	F3	G3	H3
+A2	B2	C2	D2	E2	F2	G2	H2
+A1	B1	C1	D1	E1	F1	G1	H1
+
+Rooks can move as many squares as they want in a horizontal or vertical direction. So if they are on the same row or column, they can attack each other.
+
+
+### 9 - Next Bingo Number
+Given a bingo number, return the next bingo number sequentially.
+
+A bingo number is a single letter followed by a number in its range according to this chart:
+Letter	Number Range
+"B"	1-15
+"I"	16-30
+"N"	31-45
+"G"	46-60
+"O"	61-75
+For example, given "B10", return "B11", the next bingo number. If given the last bingo number, return "B1".
+
+### 8 - FizzBuzz Validator
+Given an array of sequential integers, with multiples of 3 and 5 replaced, determine if it's a valid FizzBuzz sequence.
+
+In a valid FizzBuzz sequence:
+- Multiples of 3 are replaced with "Fizz".
+- Multiples of 5 are replaced with "Buzz".
+- Multiples of both 3 and 5 are replaced with "FizzBuzz".
+- All other numbers remain as integers.
+
+### 7 - Palindrome Characters
+Given a string, determine if it's a palindrome and return the middle character (if it's odd length) or middle two characters (if it's even).
+- A palindrome is a string that is the same forward and backward.
+- If it's not a palindrome, return "none".
+
+### 6 - What Day Is It?
+Given a Unix timestamp in milliseconds, return the day of the week.
+
+Valid return days are:
+"Sunday"
+"Monday"
+"Tuesday"
+"Wednesday"
+"Thursday"
+"Friday"
+"Saturday"
+Be sure to ignore time zones.
+
+### 5 - Digit Rotation Escape
+
+Given a positive integer, determine if it, or any of its rotations, is evenly divisible by its digit count.
+
+A rotation means to move the first digit to the end. For example, after 1 rotation, 123 becomes 231.
+- Check rotation 0 (the given number) first.
+- Given numbers won't contain any zeros.
+- Return the first rotation number if one is found, or "none" if not.
+
+### 4 - Equation Validation
+
+Given a string representing a math equation, determine whether it is correct.
+- The left side may contain up to three positive integers and the operators +, -, *, and /.
+- The equation will be given in the format: "number operator number = number" (with two or three numbers on the left). For example: "2 + 2 = 4" or "2 + 3 - 1 = 4".
+- The right side will always be a single integer.
+Follow standard order of operations: multiplication and division are evaluated before addition and subtraction, from left-to-right.
+
+### 3 - Browser History
+Given an array of browser commands, return an array with two values: the history as an array of URLs, and the index of the current page.
+
+Valid commands are:
+- "URL" - Where URL is a web address ("freecodecamp.org" for example). Navigates to the given URL, adds it to the history at the next position, and discards any forward history.
+- "Back" - moves to the previous page in history, or stays on the current page if there isn't one.
+- "Forward" - moves to the next page in history, or stays on the current page if there isn't one.
+
 ### 2 - Capitalized Fibonacci
 Given a string, return a new string where each letter is capitalized if its index is a Fibonacci number, and lowercased otherwise.
 

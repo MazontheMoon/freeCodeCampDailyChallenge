@@ -5,6 +5,54 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 13 - Name Initials
+Given a full name as a string, return their initials.
+
+- Names to initialize are separated by a space.
+- Initials should be made uppercase.
+- Initials should be separated by dots.
+For example, "Tommy Millwood" returns "T.M.".
+
+### 12 - Spiral Matrix
+Given a 2D matrix, return a flat array with all of its values in clockwise order.
+
+The returned array should have the top-left value first, move right along the top row, then down the right column, then left along the bottom row, then up the left column. Repeat inward for any remaining layers.
+
+For example, given:
+
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+Return [1, 2, 3, 6, 9, 8, 7, 4, 5].
+
+### 11 - Rook and Bishop Attack
+Given a string for the location of a rook on a chess board, and another for the location of a bishop, determine if one piece can attack another.
+
+A standard chessboard is 8x8, with columns labeled A through H (left to right) and rows labeled 1 through 8 (bottom to top). It looks like this:
+
+A8	B8	C8	D8	E8	F8	G8	H8
+A7	B7	C7	D7	E7	F7	G7	H7
+A6	B6	C6	D6	E6	F6	G6	H6
+A5	B5	C5	D5	E5	F5	G5	H5
+A4	B4	C4	D4	E4	F4	G4	H4
+A3	B3	C3	D3	E3	F3	G3	H3
+A2	B2	C2	D2	E2	F2	G2	H2
+A1	B1	C1	D1	E1	F1	G1	H1
+
+- Rooks can move as many squares as they want in a horizontal or vertical direction.
+- Bishops can move as many squares as they want in any diagonal direction.
+
+One piece can attack another if it can move to the location of that piece.
+
+Return:
+- "rook" if the rook can attack the bishop.
+- "bishop" if the bishop can attack the rook.
+- "neither" if neither piece can attack one another.
+
+
+
 ### 10 - Rook Attack
 Given two strings for the location of two rooks on a chess board, determine if they can attack each other.
 

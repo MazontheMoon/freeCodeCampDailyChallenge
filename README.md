@@ -5,6 +5,12 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 14 - Last Letter
+
+Given a string, return the letter from the string that appears last in the alphabet.
+- If two or more letters tie for the last in the alphabet, return the first one.
+- Ignore all non-letter characters.
+
 ### 13 - Name Initials
 Given a full name as a string, return their initials.
 

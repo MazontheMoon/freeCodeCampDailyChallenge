@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 15 - Sorted Array Swap
+Given an array of integers, return a new array using the following rules:
+- Sort the integers in ascending order
+- Then swap all values whose index is a multiple of 3 with the value before it.
+
 ### 14 - Last Letter
 
 Given a string, return the letter from the string that appears last in the alphabet.

@@ -5,6 +5,26 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 17 - Hidden Key
+Welcome to the 250th daily challenge!
+
+Given an encoded string, decode it using an encryption key and return it.
+
+To find the key:
+- Look at all daily challenges up to today whose challenge number is a multiple of 25 (including this one).
+- Take the first letter from each of those challenge titles and combine them into a string. If the title starts with a non-letter, find its first letter.
+= VLHCGMDLNH
+
+To decode the message, go over each letter in the encoded message and:
+- Look at the corresponding letter in the key (repeat the key if the message is longer than the key).
+- Convert the key letter to its corresponding number: "A" = 1, "B" = 2, ..., "Z" = 26.
+- Shift the encoded letter backward in the alphabet by that number.
+- If the shift goes before "A", wrap around to "Z".
+
+For example, if the encoded message starts with "Y" and the first key letter is "V" (22), shift "Y" back 22 places to get "C". Repeat this process for each letter to decode the full message.
+- Only letters are shifted, spaces are returned as-is.
+- All given and returned letters are uppercase.
+
 ### 16 - String Math
 Given a string with numbers and other characters, perform math on the numbers based on the count of non-digit characters between the numbers.
 - If the count of characters separating two numbers is even, use addition.

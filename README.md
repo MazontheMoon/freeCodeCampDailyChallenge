@@ -5,6 +5,19 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 20 - 
+
+### 19 - 
+
+### 18 - Array Sum Finder
+Given an array of numbers and a target number, return the first subset of two or more numbers that adds up to the target.
+
+- The "first" subset is the one whose elements have the lowest possible indices, prioritizing the earliest index first.
+- Each number in the array may only be used once.
+- If no valid subset exists, return "Sum not found".
+
+Return the matching numbers as an array in the order they appear in the original array.
+
 ### 17 - Hidden Key
 Welcome to the 250th daily challenge!
 

@@ -5,9 +5,62 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
-### 20 - 
+### 22 - Earth Day Cleanup Crew
 
-### 19 - 
+Today is Earth Day. Given an array of items you cleaned up, return your total cleanup score based on the rules below.
+
+Given items will be one of:
+
+Item		Base Value
+"bottle"	10
+"can"		6
+"bag"		8
+"tire"		35
+"straw"		4
+"cardboard"	3
+"newspaper"	3
+"shoe"		12
+"electronics"	25
+"battery"	18
+"mattress"	38
+
+A Rare item is represented as ["rare", value]. For example, ["rare", 80]. Rare items do not get a streak bonus.
+
+- Streak bonus: If the same item appears consecutively, it gets increasing bonus points.
+	- First consecutive occurrence: base value
+	- Second: base value + 1
+	- Third: base value + 2
+	- etc.
+- Fifth Item Multiplier: Every fifth item collected gets a multiplier.
+	- Fifth item: *2
+	- Tenth item: *3
+	- etc.
+- Apply the multiplier after calculating any bonuses.
+
+### 21 - Odd Words
+
+Given a string of words, return only the words with an odd number of letters.
+
+- Words in the given string will be separated by a single space.
+
+Return the words separated by a single space.
+
+### 20 - Acronym Finder
+
+Given a string representing an acronym, return the full name of the organization it belongs to from the list below:
+
+- "National Avocado Storage Authority"
+- "Cats Infiltration Agency"
+- "Fluffy Beanbag Inspectors"
+- "Department Of Jelly"
+- "Wild Honey Organization"
+- "Eating Pancakes Administration"
+
+Each letter in the given acronym should match the first letter of each word in the organization it belongs to, in the same order.
+
+### 19 - Unique Stair Climber
+
+Given a number of stairs, return how many distinct ways someone can climb them taking either 1 or 2 steps at a time.
 
 ### 18 - Array Sum Finder
 Given an array of numbers and a target number, return the first subset of two or more numbers that adds up to the target.

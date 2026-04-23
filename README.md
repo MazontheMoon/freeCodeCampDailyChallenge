@@ -5,6 +5,17 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 23 - Closest Time Direction
+
+Given two times, determine whether you can get from the first to the second faster by moving forward or backward.
+- Times are given in 24-hour format ("HH:MM")
+- The clock wraps around (23:59 goes to 00:00 when moving forward, and 00:00 goes to 23:59 when moving backwards)
+
+Return:
+- "forward" if moving forward is shorter
+- "backward" if moving backward is shorter
+- "equal" if both directions take the same amount of time
+
 ### 22 - Earth Day Cleanup Crew
 
 Today is Earth Day. Given an array of items you cleaned up, return your total cleanup score based on the rules below.

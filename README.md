@@ -5,6 +5,37 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 27 - Word Score
+Given a word, return its score using a standard letter-value table:
+
+Letter	Value
+A		1
+B		2
+...		...
+Z		26
+
+Upper and lowercase letters have the same value.
+
+### 26 - FizzBuzz Explosion
+
+Given an integer, return the number of steps it takes to turn the word "fizzbuzz" into a string with at least the given number of "z"'s using the following rules:
+- Start with the string "fizzbuzz".
+- Each step, apply the standard FizzBuzz rules using the letter position in the string (the first "f" is position 1).
+- If the letter position is divisible by 3, replace the letter with "fizz"
+- If it's divisible by 5, replace the letter with "buzz"
+- If it's divisible by 3 and 5, replace the letter with "fizzbuzz"
+
+So after 1 step, "fizzbuzz" turns into "fifizzzbuzzfizzzz", which has 9 "z"'s
+
+### 25 - Word Decompressor
+
+Given a compressed string, return the decompressed version using the following rules:
+- The given string is made up of words and numbers separated by spaces.
+- Leave the words unchanged.
+- Replace numbers with the word at that position, where the first word is at position 1.
+
+For example, given "practice makes perfect and 3 1 2 3", return "practice makes perfect and perfect practice makes perfect".
+
 ### 24 - Word Compressor
 
 Given a string, return a compressed version of the string using the following rules:

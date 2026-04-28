@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 28 - Number Words
+Given an integer from 0 to 99, return its English word representation.
+- 0 returns "zero".
+- Numbers 1-19 have unique names ("one", "two", ..., "ten", "eleven", ..., "eighteen", "nineteen").
+- Multiples of 10 from 20-90 have their own names ("twenty", "thirty", ..., "eighty", "ninety").
+- Numbers 21-99 that are not multiples of 10 are written as two words joined by a hyphen. For example "forty-two" and "fifty-three".
+
 ### 27 - Word Score
 Given a word, return its score using a standard letter-value table:
 

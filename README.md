@@ -5,6 +5,20 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## April
 
+### 29 - URL Query Parser
+Given a URL that contains a query string, parse the query string into an object (or dictionary) of key-value pairs.
+
+- The query string begins after the "?",
+- each parameter is separated by "&",
+- each key/value pair is separated by "="
+
+For example, given "https://example.com/search?name=Alice&age=30", return:
+{
+  "name": "Alice",
+  "age": "30"
+}
+All values should be returned as strings.
+
 ### 28 - Number Words
 Given an integer from 0 to 99, return its English word representation.
 - 0 returns "zero".

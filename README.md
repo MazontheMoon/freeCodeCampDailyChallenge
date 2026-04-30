@@ -4,6 +4,19 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 # 2026
 
 ## April
+### 30 - Binary Crossword
+Given a character, determine if its 8-bit binary representation can be found in the following grid, horizontally or vertically in either direction:
+
+0 1 0 0 0 0 0 1
+0 1 1 0 1 1 1 1
+0 1 0 0 0 1 0 0
+0 1 1 0 0 1 0 1
+0 1 0 1 0 0 1 0
+0 1 0 1 0 1 0 0
+0 1 1 0 1 0 0 0
+1 0 1 0 1 1 1 0
+
+For example, "A" has the binary representation 01000001, which appears in the first row from left to right.
 
 ### 29 - URL Query Parser
 Given a URL that contains a query string, parse the query string into an object (or dictionary) of key-value pairs.

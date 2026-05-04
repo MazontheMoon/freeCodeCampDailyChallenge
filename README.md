@@ -5,6 +5,30 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 4 - Parsec Converter
+In a distant galaxy, parsecs are used to measure both time and distance. Given an integer number of parsecs, return its equivalent in time or distance.
+
+- If the given integer is odd, it represents time. If it's even, it represents distance.
+
+Use these conversion rates:
+Parsecs	Time/Distance
+1		2 hours
+2		6 light years
+Return the converted value as an integer.
+
+### 3 - Good Day
+Given a time string in "HH:MM" format (24-hour clock), return:
+- "Good morning" for times 05:00 to 11:59
+- "Good afternoon" for times 12:00 to 17:59
+- "Good evening" for times 18:00 to 21:59
+- "Good night" for times 22:00 to 04:59
+
+### 2 - Deepest Brackets
+Given a string containing balanced brackets, return the content of the deepest nested brackets.
+- Brackets can be any of the three types: (), [], and {}.
+- The input will always have a single deepest group.
+For example, given "(hello (world))", return "world".
+
 ### 1 - Anagram Groups
 Given an array of words, return a 2d array of the words grouped into anagrams.
 

@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 7- Longest Common Substring
+Given a string, return the longest substring that appears more than once.
+
+- The substrings can overlap.
+
 ### 6 - Allergen Friendly Meals
 
 Given an array of meals and an array of allergens to avoid, return the names of all the meals that contain none of the given allergens.

@@ -5,6 +5,20 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 8 - Medication Reminder
+Given an array of medications and a string representing the current time, return the next medication you need to take and how long until you need to take it.
+
+Each medication is in the format [name, lastTaken], where name is the name of the medication and lastTaken is the time it was last taken.
+All given times will be in "HH:MM" (24-hour) format.
+Use the following medication schedule:
+
+Name			Schedule
+Deployxitrin	08:00, 16:00
+Debuggamanizole	07:00, 13:00, 21:00
+Mergeflictamine	every 4 hours
+
+Return a string in the format "{name} in Hh Mm". For example, "Debuggamanizole in 2h 0m" or "Deployxitrin in 1h 5m".
+
 ### 7- Longest Common Substring
 Given a string, return the longest substring that appears more than once.
 

@@ -5,6 +5,40 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 11 - Oldest Person
+Given an array of objects, each with a "name" and "age" property, return an array containing the name of the oldest person.
+
+If multiple people share the oldest age, return all of their names in the order they appear in the input.
+
+### 10 - ISBN-13 Validator
+Given a string, determine if it is a valid ISBN-13 number.
+
+A valid ISBN-13:
+- Contains only digits and hyphens
+- Has exactly 13 digits after removing hyphens
+
+Passes the following check:
+- Multiply each digit by 1 or 3, alternating (multiply the first digit by 1, the second by 3, the third by 1, and so on).
+- The sum of the results must be divisible by 10.
+
+### 9 - Transposed Matrix
+Given a matrix (an array of arrays), return the transposed version of it.
+
+To transpose the matrix, swap the rows and columns. E.g: a value at index [0, 1] should move to index [1, 0].
+
+For example, given:
+[
+  [1, 2, 3],
+  [4, 5, 6]
+]
+
+Return:
+[
+  [1, 4],
+  [2, 5],
+  [3, 6]
+]
+
 ### 8 - Medication Reminder
 Given an array of medications and a string representing the current time, return the next medication you need to take and how long until you need to take it.
 

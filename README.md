@@ -5,6 +5,9 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 12 - Character Frequency
+Given a string, return an object (JavaScript) or dictionary (Python) mapping each character to the number of times it appears.
+
 ### 11 - Oldest Person
 Given an array of objects, each with a "name" and "age" property, return an array containing the name of the oldest person.
 

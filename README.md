@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 13 - Offending Element
+Given an array of integers that is sorted in ascending order except for one out-of-place element, return the index of that element.
+
+- If more than one element could be considered out of place, return the index of the first one.
+
 ### 12 - Character Frequency
 Given a string, return an object (JavaScript) or dictionary (Python) mapping each character to the number of times it appears.
 

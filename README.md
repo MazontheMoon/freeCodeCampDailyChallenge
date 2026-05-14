@@ -5,6 +5,26 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 14 - Mirror Image
+Given two strings, determine if the second string is a mirror image of the first.
+
+A mirror image is formed by reversing the string and replacing each character with its mirror equivalent.
+
+Symmetric characters look like themselves in a mirror:
+W, T, Y, U, I, O, H, A, X, V, M, w, o, x, v, 0, 8, =, +, :, |, -, _, *, ^, !, ., and the space ( ).
+
+Mirrored pairs swap with each other in a mirror:
+Character	Swaps with
+[			]
+{			}
+<			>
+b			d
+p			q
+(			)
+If either string includes a character not in the lists above, it doesn't have mirror image that can be created from the characters.
+
+For example, the mirrored image of "[HOW]" is "[WOH]".
+
 ### 13 - Offending Element
 Given an array of integers that is sorted in ascending order except for one out-of-place element, return the index of that element.
 

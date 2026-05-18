@@ -5,6 +5,36 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 18 - Longest Domino Chain
+Given a 2D array representing a set of dominoes, return the longest valid chain.
+
+- Each domino is a pair of numbers from 0–6, e.g. [3, 2].
+- A chain is valid when the second number of each domino matches the first number of the next.
+- The first number of the first domino and the second number of the last one don't need to match anything.
+- Any domino can be flipped, so [3, 2] can be played as [2, 3].
+- There is always exactly one longest valid chain.
+
+For example, given [[1, 2], [4, 5], [2, 3]], return [[1, 2], [2, 3]].
+
+### 17 - Mongo ID Date
+Given a MongoDB ID string, return its creation time as an ISO 8601 string.
+
+- A MongoDB ID is a 24-character hex string. The first 8 characters represent a Unix timestamp (in seconds) encoded as a base-16 integer.
+
+For example, "6a094b50bcf86cd799439011" has a timestamp of "6a094b50" in hex, which is 1778994000 in decimal, representing a creation time of "2026-05-17T05:00:00.000Z".
+
+### 16 - Bingo Range
+Given a bingo letter, return the number range associated with that letter.
+
+Letter	Number Range
+"B"		1-15
+"I"		16-30
+"N"		31-45
+"G"		46-60
+"O"		61-75
+
+Return an array with all numbers in the range from smallest to largest.
+
 ### 15 - Coffee Order Parser
 Given a string for a coffee order, identify any menu items and return a formatted order.
 

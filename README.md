@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 19 - Sleep Debt
+Given an array of hours slept each night leading up to today, and a target number of hours per night, return how many hours of sleep you need tonight to eliminate your sleep debt.
+- Include tonight's hours in the total time needed to catch up.
+- If you've slept enough to cover tonight's target or more, return 0.
+
 ### 18 - Longest Domino Chain
 Given a 2D array representing a set of dominoes, return the longest valid chain.
 

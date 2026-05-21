@@ -5,6 +5,18 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 21 - I Before E
+Given a word or sentence, return a corrected version where every word follows the "I before E except after C" rule.
+
+If a word contains "ei" not preceded by "c", replace it with "ie".
+If a word contains "ie" preceded by "c", replace it with "ei".
+All other words are left unchanged.
+
+### 20 - String Zipper
+Given two strings, return a new string that interleaves their characters one at a time. If one string is longer, append the remaining characters at the end.
+
+Begin with the first character of the first string.
+
 ### 19 - Sleep Debt
 Given an array of hours slept each night leading up to today, and a target number of hours per night, return how many hours of sleep you need tonight to eliminate your sleep debt.
 - Include tonight's hours in the total time needed to catch up.

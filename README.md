@@ -5,6 +5,19 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 22 - Meeting Time
+Given a 3D array representing availability windows for multiple people, return the earliest time where everyone has one hour free. If no such time exists, return "None".
+
+- Each person's availability is an array of [start, end] integer pairs in 24-hour time. For example, [10, 12] would mean the person is available from 10 to 12. Start times range from 0-23, and end times range from 1-24.
+
+For example, given:
+
+[
+  [[10, 12], [15, 16]], // person 1
+  [[11, 14], [15, 16]]  // person 2
+]
+Return 11, the start of their first shared free hour.
+
 ### 21 - I Before E
 Given a word or sentence, return a corrected version where every word follows the "I before E except after C" rule.
 

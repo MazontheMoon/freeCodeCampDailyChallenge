@@ -5,6 +5,38 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 25 - Secret Number
+Given a secret number and a guess, determine if the guess is correct.
+
+Return:
+- "higher" if the secret number is higher than the guess.
+- "lower" if the secret number is lower than the guess.
+- "you got it!" if the guess is correct.
+
+### 24 - Roman Numeral Fixer
+Given a string of malformed Roman numerals, return the value in standard Roman numeral notation.
+
+The input will only use additive notation, so each symbol adds its value to the total. As a reminder, here are the symbols and values:
+
+Symbol	Value
+"I"		1
+"V"		5
+"X"		10
+"L"		50
+"C"		100
+"D"		500
+"M"		1000
+When re-encoding, use the largest possible symbol at each step, using subtractive pairs ("IV", "IX", "XL", "XC", "CD", "CM") where needed.
+
+### 23 - Open Issues
+Given an array of issue numbers and another array of pull request (PR) numbers, return an array of issues that remain open after all PRs have been merged.
+
+- A PR closes an issue if their digits are a rotation of each other. For example, issue 123 would be closed by PR 231 or 312.
+- A PR does not close an issue with the exact same number. For example, PR 123 does not close issue 123. So an issue with all the same number can't get closed.
+- Either number may have leading zeros stripped. For example, PR 201 would close issue 12 (012, a rotation of 201). Similarily, issue 201 would be closed by PR 12.
+
+Return the remaining open issues in the order they were given.
+
 ### 22 - Meeting Time
 Given a 3D array representing availability windows for multiple people, return the earliest time where everyone has one hour free. If no such time exists, return "None".
 

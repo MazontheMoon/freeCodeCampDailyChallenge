@@ -5,6 +5,11 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 26 - Sum of Differences
+Given an array of numbers, return the sum of the differences between each number and the one that follows it.
+
+For example, given [1, 3, 4], return 3 (2 + 1).
+
 ### 25 - Secret Number
 Given a secret number and a guess, determine if the guess is correct.
 

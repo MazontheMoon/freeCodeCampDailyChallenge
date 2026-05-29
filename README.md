@@ -5,6 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## May
 
+### 29 - Wider Aspect Ratio
+
+Given two strings for different image dimensions, return the aspect ratio of the image with a greater width-to-height ratio.
+
+- he given strings will be in the format "WxH", for example, "1920x1080".
+- The aspect ratio is the ratio of width to height, reduced to the lowest whole numbers. For example, "1920x1080" reduces to "16:9".
+
+Return a string in format "W:H", for example, "16:9".
+
 ### 28 - FizzBuzz Count
 
 Given a start and end number, count the number of fizz and buzz appearances in the range (inclusive).

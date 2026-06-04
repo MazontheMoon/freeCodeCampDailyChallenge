@@ -3,7 +3,93 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
+## June
+
+### 4 - Schema Validator Part 4
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+Roles = "user" | "creator" | "moderator" | "staff" | "admin"
+
+{
+  username: string,
+  posts: number,
+  verified: boolean,
+  role: Roles,
+  supporter?: boolean
+}
+
+The pipe (|) symbol means "or". role must be one of the listed Roles values.
+The question mark (?) after supporter means that the field is optional, but is the specified type if it exists.
+Extra keys are allowed
+
+### 3 - Schema Validator Part 3
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+Roles = "user" | "creator" | "moderator" | "staff" | "admin"
+
+{
+  username: string,
+  posts: number,
+  verified: boolean,
+  role: Roles
+}
+
+The pipe (|) symbol means "or". role must be one of the listed Roles values.
+Extra keys are allowed
+
+### 2 - Schema Validator Part 2
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+{
+  username: string,
+  posts: number,
+  verified: boolean
+}
+
+Extra keys are allowed
+
+### 1 - Schema Validator Part 1
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+{
+  username: string
+}
+
+Extra keys are allowed
+
 ## May
+
+### 31 - Parentheses Combinations
+Given an integer, n, return the number of valid combinations of n pairs of parentheses.
+
+A valid combination is a string where every opening parentheses has a corresponding closing parentheses, and no closing parentheses appears before its matching opening parentheses.
+
+For example, given 2, there are 2 valid combinations:
+(())
+()()
+
+### 30 - Best Hand
+Given an array of five strings representing playing cards, return the name of the best hand.
+
+Each card is represented as a two-character string: the rank followed by the suit, "2h" for example.
+Ranks, from low to high, are: "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", and "A".
+- Suits are: "h", "d", "c", and "s".
+- Aces ("A") can be used as high or low in a straight.
+
+The hands, in order from worst to best, are:
+Name				Description
+"High Card"			No pair or better
+"Pair"				Two of one rank
+"Two Pair"			Two of one rank and two of another
+"Three of a Kind"	Three of one rank
+"Straight"			Five ranks in a row
+"Flush"				Five of the same suit
+"Full House"		Three of one rank, and two of another
+"Four of a Kind"	Four of one rank
+"Straight Flush"	Five ranks in a row of the same suit
+"Royal Flush"		"A", "K", "Q", "J", "T" of the same suit
+
+Return the name of the best hand.
 
 ### 29 - Wider Aspect Ratio
 

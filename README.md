@@ -5,6 +5,25 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 5 - Schema Validator Part 5
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+Roles = "user" | "creator" | "moderator" | "staff" | "admin"
+
+{
+  username: string,
+  posts: number,
+  verified: boolean,
+  role: Roles,
+  supporter?: boolean,
+  badges: string[]
+}
+
+The pipe (|) symbol means "or". role must be one of the listed Roles values.
+The question mark (?) after supporter means that the field is optional, but is the specified type if it exists.
+The brackets [] after string means that badges should be an array of strings (or empty).
+Extra keys are allowed
+
 ### 4 - Schema Validator Part 4
 Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
 

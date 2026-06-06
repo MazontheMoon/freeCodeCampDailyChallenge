@@ -5,6 +5,25 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 6 - Schema Validator Part 6
+Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
+
+Roles = "user" | "creator" | "moderator" | "staff" | "admin"
+
+UserProfile = {
+  username: string,
+  posts: number,
+  verified: boolean,
+  role: Roles,
+  supporter?: boolean,
+  badges: string[]
+}
+
+{
+  users: UserProfile[]
+}
+ 
+
 ### 5 - Schema Validator Part 5
 Given an object (JavaScript) or dictionary (Python), determine if it matches the following schema:
 

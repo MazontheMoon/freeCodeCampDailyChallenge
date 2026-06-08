@@ -5,6 +5,26 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 8 - Jet Lagged
+Given a departure city, an arrival city, a flight duration in hours, and a direction of travel, return the number of jet lag hours the traveller is experiencing.
+
+The given cities will be from the following list that includes their UTC offset:
+City			Offset
+"Los Angeles"	-8
+"New York"		-5
+"London"		0
+"Istanbul"		+3
+"Dubai"			+4
+"Hong Kong"		+8
+"Tokyo"			+9
+
+To calculate jet lag hours:
+- Find the timezone difference in hours between the two cities.
+- Determine the direction multiplier. If travelling "east", it's 1.5, otherwise, it's 1.0.
+- Get the jet lag hours with the formula: timezone difference + (flight duration * 0.1) * direction multiplier
+
+Return the jet lag hours rounded to one decimal place.
+
 ### 7 - Last Load
 Given the number of scoops of laundry detergent you have remaining and an array of how many scoops you used in each of the previous days, return the number of full days of detergent you have remaining.
 

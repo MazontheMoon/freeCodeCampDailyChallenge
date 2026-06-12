@@ -5,6 +5,10 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 12 - HTML Content Extractor
+Given a string of HTML, return the plain text content with all tags removed.
+
+
 ### 11 - Idea Rankings
 Given a 2D array where each inner array contains (in this order) an idea name, an optimistic estimate, a realistic estimate, and a pessimistic estimate (in days), return an array of the idea names sorted by expected time to completion, shortest first.
 

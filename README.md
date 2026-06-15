@@ -5,6 +5,9 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 15 - Number Sort
+Given a string of numbers separated by commas, return an array of the numbers sorted from smallest to largest.
+
 ### 14 -  Credit Card Validator
 Given a string of digits for a credit card number, determine if it's a valid card number using the following method:
 - Starting from the second-to-last digit, double every other digit moving left.

@@ -5,6 +5,84 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
+### 29 - 
+
+### 28 - 
+
+### 27 - 
+
+### 26 - 
+
+### 25 - 
+
+### 24 - BMI Calculator
+Given a weight in pounds and a height in inches, return the BMI (Body Mass Index) rounded to one decimal place.
+
+To get BMI: divide the weight by the height squared, then multiply the result by 703.
+
+### 23 - 1337 Speak
+Given a lowercase string, return it translated into leet speak by replacing the letters below with their leet substitutions:
+
+Letter	Leet
+a	4
+e	3
+g	9
+i	1
+l	1
+o	0
+s	5
+t	7
+Characters with no substitution are left unchanged.
+
+### 22 - Summer Solstice
+Today is the summer solstice, the longest day of the year in the Northern Hemisphere and the shortest in the Southern. Given a latitude, return a string representing daytime and nighttime hours.
+
+The latitude will be between 90 (north pole) and -90 (south pole), inclusive
+The number of daytime hours = 12 + (latitude / 90) * 12
+Round the daytime hours to the nearest even number
+
+Return a 24-character string using "☀️" for daytime hours and "🌑" for nighttime hours, where:
+- Each character represents one hour, starting at midnight (hour 0)
+- Sunrise and sunset fall symmetrically around noon
+For example, a latitude of 0 (the equator) has 12 hours of daylight, so sunrise is at 6:00 AM and sunset is at 6:00 PM. Return: "🌑🌑🌑🌑🌑🌑☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️🌑🌑🌑🌑🌑🌑".
+
+### 21 - Prime Factorization
+Given an integer greater than 1, return its prime factorization as an array of numbers in ascending order.
+
+A prime factorization is the set of prime numbers that multiply together to produce the given integer. Each number has exactly one set. For example, the prime factorization of 20 is [2, 2, 5] because 2 * 2 * 5 = 20.
+
+If the given integer is itself prime, return it in a single-element array.
+
+### 20 - Rental Cost
+Given a rental timestamp, a return timestamp, and a rental tier, return the total cost of the rental including any late fees.
+
+Given timestamps are UTC ISO strings, for example: "2026-06-18T18:30:00Z".
+The rental tier is the number of days before the rental is due back: 1, 3, or 7.
+Rentals are due back by 12:00 PM UTC or earlier on the last day of the rental period. For example, a 1-day rental checked out at any time on March 15 is due back by 12:00 PM UTC on March 16.
+Each day past the due date and time incurs a late fee.
+
+Pricing is as follows:
+Tier	Base cost	Late fee per day
+1 day	$4.99	$3.99
+3 days	$3.99	$2.99
+7 days	$2.99	$0.99
+Return the total cost rounded to two decimal places in the format "$D.CC".
+
+### 19 - Streaming Cost
+Given an array representing movies in the cart of your streaming service, and a string for your subscription tier, return the total cost of the movies.
+
+Each item in the cart is an object with a "format" ("HD" or "4K") and a "type" ("rent" or "buy"). Their costs are:
+"rent"	"buy"
+"HD"	$3.99	$12.99
+"4K"	$5.99	$19.99
+
+Apply the following subscription tier discounts:
+"none": full price
+"basic": 10% off
+"premium": 25% off
+
+Return the total cost rounded to two decimal places in the format "$D.CC".
+
 ### 18 - Streaming Cost
 Given an array representing movies in the cart of your streaming service, and a string for your subscription tier, return the total cost of the movies.
 

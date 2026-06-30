@@ -5,15 +5,85 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## June
 
-### 29 - 
+### 31 - Duplicate Character Count
+Given two strings, return a count of characters from the second string that can be found in the first.
 
-### 28 - 
+Duplicate characters in the second string are counted separately.
 
-### 27 - 
+### 30 - Song Mood Finder
+Given a genre string and a BPM number for a song, determine the mood using the following table:
 
-### 26 - 
+Mood	Genre	BPM Range
+"focus"	"classical"	60–109
+"focus"	"electronic"	60–89
+"happy"	"pop"	60–180
+"happy"	"classical"	110–180
+"happy"	"rock"	60–129
+"happy"	"electronic"	90–134
+"hype"	"rock"	130–180
+"hype"	"electronic"	135–180
 
-### 25 - 
+### 29 - Connect 3
+Given a matrix of strings representing pieces on a game grid, determine if any player has three in a row.
+
+Each cell contains "R", "Y", or "" (empty string).
+Three in a row means three consecutive non-empty cells of the same type horizontally, vertically, or diagonally.
+Return:
+
+A flat array with the winner and the coordinates of their three winning cells in the format: ["R", [0,2], [1,3], [2,4]]. Coordinates are returned top-to-bottom, then left-to-right.
+An empty array if there is no winner.
+
+### 28 - Periodic Spelling
+Given a word, determine if it can be spelled using element symbols from the periodic table.
+
+Ignore casing when spelling a word. "neon" can be spelled with the symbols "Ne", "O", and "N".
+Here's a full list of the element symbols:
+
+["H","He","Li","Be","B","C","N","O","F","Ne","Na","Mg","Al","Si","P","S","Cl","Ar","K","Ca","Sc","Ti","V","Cr","Mn","Fe","Co","Ni","Cu","Zn","Ga","Ge","As","Se","Br","Kr","Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd","In","Sn","Sb","Te","I","Xe","Cs","Ba","La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Hf","Ta","W","Re","Os","Ir","Pt","Au","Hg","Tl","Pb","Bi","Po","At","Rn","Fr","Ra","Ac","Th","Pa","U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No","Lr","Rf","Db","Sg","Bh","Hs","Mt","Ds","Rg","Cn","Nh","Fl","Mc","Lv","Ts","Og"];
+
+Return an array of the elements used to spell the word, in their original casing and in the order to spell the word. Or, an empty array if it can't be spelled.
+
+
+### 27 - Blood Bank
+Given an array of the inventory at a blood bank and an array of patient blood type requests, return a string in the format "X of Y patients served". Where X is the maximum number of patients that can receive blood from the bank's inventory, and Y is the total number of patients.
+
+Each entry in both arrays is one of the following blood types: "AB", "A", "B", or "O".
+
+Compatibility rules:
+
+"AB" can receive from any blood type.
+"A" can receive from "A" and "O".
+"B" can receive from "B" and "O".
+"O" can only receive from "O".
+Duplicate entries in the given arrays represent quantity.
+
+### 26 - Frontmatter Parser
+Given a string representing a frontmatter block, parse it and return an object (JavaScript) or dictionary (Python) with the keys and values.
+
+Frontmatter is wrapped in --- delimiters and contains key: value pairs within them, one per line. For example:
+
+---
+title: My Post
+draft: false
+views: 100
+---
+Should return:
+
+{
+  title: "My Post",
+  draft: false,
+  views: 100
+}
+
+Numbers, Booleans, and Strings should all be returned as their respective type.
+The given string will have new lines separated with the newline character ("\n"). The above example would be given as: "---\ntitle: My Post\ndraft: false\nviews: 100\n---".
+
+### 25 - DNA Mutations
+Given two DNA strands of equal length, return an array of indexes where the strands differ (mutations).
+
+DNA strands are strings made up of the characters "A", "T", "C", and "G"
+Return the indexes in ascending order
+If there are no mutations, return an empty array
 
 ### 24 - BMI Calculator
 Given a weight in pounds and a height in inches, return the BMI (Body Mass Index) rounded to one decimal place.

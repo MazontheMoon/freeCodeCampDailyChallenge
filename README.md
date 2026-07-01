@@ -5,14 +5,15 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
-### 1 - Periodic Spelling
-Given a word, determine if it can be spelled using element symbols from the periodic table.
+### 1 - Lucky Number
+Given a string of a person's first and last name, calculate their lucky number using the following rules:
 
-Ignore casing when spelling a word. "neon" can be spelled with the symbols "Ne", "O", and "N".
-Here's a full list of the element symbols:
-
-["H","He","Li","Be","B","C","N","O","F","Ne","Na","Mg","Al","Si","P","S","Cl","Ar","K","Ca","Sc","Ti","V","Cr","Mn","Fe","Co","Ni","Cu","Zn","Ga","Ge","As","Se","Br","Kr","Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd","In","Sn","Sb","Te","I","Xe","Cs","Ba","La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Hf","Ta","W","Re","Os","Ir","Pt","Au","Hg","Tl","Pb","Bi","Po","At","Rn","Fr","Ra","Ac","Th","Pa","U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No","Lr","Rf","Db","Sg","Bh","Hs","Mt","Ds","Rg","Cn","Nh","Fl","Mc","Lv","Ts","Og"];
-Return an array of the elements used to spell the word, in their original casing and in the order to spell the word. Or, an empty array if it can't be spelled.
+First and last names are separated by a space
+Find the vowel and consonant count for each name
+Multiply the smaller vowel and consonant counts by each other and then by the length of the smaller name
+Do the same for the two larger counts and the larger name
+Subtract the smaller value from the larger one to get their lucky number
+If the final value is zero (0), return 13.
 
 
 ## June

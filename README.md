@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 2- Max Profit
+Given an array of daily stock prices and a budget (in dollars), calculate the maximum profit you could make by buying and selling the stock over the given period.
+
+- You may only sell after you buy.
+- You can only buy whole shares.
+Return the maximum possible profit as a string, rounded down to the nearest cent and formatted to two decimal places.
+
 ### 1 - Lucky Number
 Given a string of a person's first and last name, calculate their lucky number using the following rules:
 

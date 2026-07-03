@@ -5,6 +5,12 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 3 - Database Migration
+Given two database objects, return the second object with any missing properties from the first filled in.
+
+Fields that already exist in the record should not be overwritten.
+
+
 ### 2- Max Profit
 Given an array of daily stock prices and a budget (in dollars), calculate the maximum profit you could make by buying and selling the stock over the given period.
 

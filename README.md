@@ -5,6 +5,24 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 5 - Bucket Fill
+Given a 2D grid, a starting position ([row, col]), and a new value, replace the value at the starting position and all connected cells of the same value with the new value.
+
+Cells are connected if they are adjacent horizontally or vertically (not diagonally).
+Return the updated grid.
+
+
+
+### 4 - Kaprekar's Routine
+Given a 4-digit number, return the number of times you need to apply Kaprekar's routine until reaching 6174.
+
+Kaprekar's routine works as follows:
+
+Arrange the digits in descending order to form the largest number
+Arrange the digits in ascending order to form the smallest number (pad with leading zeros if necessary)
+Subtract the smaller from the larger
+Repeat with the new number
+
 ### 3 - Database Migration
 Given two database objects, return the second object with any missing properties from the first filled in.
 

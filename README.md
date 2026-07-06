@@ -5,6 +5,9 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 6 - lowercase words
+Given a string, return only the words that are entirely lowercase, in their original order and with a space between each word.
+
 ### 5 - Bucket Fill
 Given a 2D grid, a starting position ([row, col]), and a new value, replace the value at the starting position and all connected cells of the same value with the new value.
 

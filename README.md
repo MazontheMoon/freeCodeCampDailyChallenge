@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 7 - Nearest Multiple
+Given two integers, round the first to the nearest multiple of the second.
+
+function roundToNearestMultiple(num, multiple) {
+  return Math.round(num / multiple) * multiple;
+}
+
 ### 6 - lowercase words
 Given a string, return only the words that are entirely lowercase, in their original order and with a space between each word.
 

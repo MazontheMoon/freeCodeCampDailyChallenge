@@ -5,9 +5,46 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 13 - Tally Counter
+Given a string of tally marks, return the total count represented.
+
+Each pipe "|" represents one count.
+Every fifth mark is represented as a forward slash "/", completing a group of five ("||||/").
+Groups are separated by a space.
+
+### 12 - Horoscope Match
+Given two star sign strings, return their compatibility percentage.
+
+The signs are arranged in a wheel of 12 positions in this order: "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces", wrapping back to "Aries" after "Pisces". Find the shortest distance between the two signs and return the compatibility:
+
+Distance	Compatibility
+0			"100%"
+1			"40%"
+2			"80%"
+3			"30%"
+4			"90%"
+5			"20%"
+6			"50%"
+
+
+### 11 - Five Dice
+Given an array of five dice with values 1-6, return the best possible hand.
+
+Here are the hands ranked lowest to highest:
+
+Hand				Description
+"no pair"			No pair or better
+"pair"				Two dice with the same value
+"two pair"			Two different pairs
+"three of a kind"	Three dice with the same value
+"small straight"	Four consecutive values
+"large straight"	Five consecutive values
+"full house"		Three of a kind and a pair
+"four of a kind"	Four dice with the same value
+"five of a kind"	All five dice with the same value
+
 ### 10 - Exact Change
 Given an integer amount in cents, return the number of distinct ways to make exact change using pennies (1 cent), nickels (5 cents), dimes (10 cents), and quarters (25 cents).
-
 
 
 ### 9 - Issue Triage 2

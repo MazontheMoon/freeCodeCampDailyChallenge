@@ -5,6 +5,22 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 15 - Array Chunks
+Given an array and a chunk size, return the array split into sub-arrays of that size.
+
+The last chunk may be smaller if the array doesn't divide evenly.
+
+
+function chunkArray(arr, size) {
+  const result = [];
+
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }
+
+  return result;
+}
+
 ### 14 - Pet Age Calculator
 Given a pet type and age in human years, return the equivalent age in pet years using the following conversion table:
 

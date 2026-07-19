@@ -5,6 +5,20 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 19 - Elevator Stops
+Given a number for the current floor of an elevator and an array of requested floors, return an array of the order the elevator should visit them to minimize number of floors traveled.
+
+If tied, go up first
+Floors with a request must be visited when the elevator first passes them
+
+### 18 - Dice Odds
+Given a number of six-sided dice to roll and a target sum, return the odds of rolling that sum as a string in the format "1 in X".
+
+The number of dice will be between 1 and 6.
+The target sum is always achievable with the given number of dice.
+Round "X" to the nearest whole number.
+
+
 ### 17 - Birthday Countdown
 Given today's date and a birthday, return the number of days until the person's next birthday.
 

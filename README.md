@@ -5,6 +5,17 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 20 - Golden Ratio
+Given two numbers, determine if their ratio approximates the golden ratio.
+
+Use a golden ratio of 1.618
+Allow a tolerance of 0.01
+
+function isGoldenRatio(a, b) {
+  const ratio = Math.max(a, b) / Math.min(a, b);
+  return Math.abs(ratio - 1.618) <= 0.01;
+}
+
 ### 19 - Elevator Stops
 Given a number for the current floor of an elevator and an array of requested floors, return an array of the order the elevator should visit them to minimize number of floors traveled.
 

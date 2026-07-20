@@ -7,13 +7,26 @@ function elevatorStops(currentFloor, requests) {
     .filter(f => f < currentFloor)
     .sort((a, b) => b - a);
 
+  // If only one direction exists
   if (above.length === 0) return below;
   if (below.length === 0) return above;
 
-  const upDist = above[0] - currentFloor;
-  const downDist = currentFloor - below[0];
+  const highest = above[above.length - 1];
+  const lowest = below[below.length - 1];
 
-  if (upDist <= downDist) {
+  // Total travel if going up first:
+  // current -> highest -> lowest
+  const upDistance =
+    (highest - currentFloor) +
+    (highest - lowest);
+
+  // Total travel if going down first:
+  // current -> lowest -> highest
+  const downDistance =
+    (currentFloor - lowest) +
+    (highest - lowest);
+
+  if (upDistance <= downDistance) {
     return [...above, ...below];
   } else {
     return [...below, ...above];

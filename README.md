@@ -5,17 +5,144 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## July
 
+### 31 - Morse Code
+Given a Morse code string, return the decoded message using the following table:
+
+Code	Letter	Code	Letter
+.-		A		-.		N
+-...	B		---		O
+-.-.	C		.--.	P
+-..		D		--.-	Q
+.		E		.-.		R
+..-.	F		...		S
+--.		G		-		T
+....	H		..-		U
+..		I		...-	V
+.---	J		.--		W
+-.-		K		-..-	X
+.-..	L		-.--	Y
+--		M		--..	Z
+Letters are separated by a single space
+Words are separated by three spaces
+
+### 30 - Contrast Rating 3
+Given two arrays representing RGB values and a boolean indicating whether the text is large, return the WCAG contrast rating using the following method:
+
+First, convert each RGB value to relative luminance:
+
+Divide each channel [R, G, B] by 255 to get a value between 0 and 1
+Apply the gamma correction formula to each channel:
+If the channel value is less than or equal to 0.04045: channel / 12.92
+Otherwise: ((channel + 0.055) / 1.055) ^ 2.4
+Calculate luminance: 0.2126 * R + 0.7152 * G + 0.0722 * B
+Then, calculate the contrast ratio by adding 0.05 to each luminance value, then dividing the lighter one by the darker one. The lighter one will always be the first argument.
+
+Return the rating based on the contrast ratio using the following table:
+
+Rating	Normal Text	Large Text
+"AAA"	7.0+	4.5+
+"AA"	4.5+	3.0+
+"Fail"	below 4.5	below 3.0
+
+
+### 29 - Contrast Rating 2
+Given two relative luminance values and a boolean indicating whether the text is large, return the WCAG contrast rating using the following method:
+
+Calculate the contrast ratio by adding 0.05 to each luminance value, then dividing the lighter one by the darker one. The lighter one will always be the first argument.
+
+Return the rating based on the contrast ratio using the following table:
+
+Rating	Normal Text	Large Text
+"AAA"	7.0+	4.5+
+"AA"	4.5+	3.0+
+"Fail"	below 4.5	below 3.0
+
+
+### 28 - Contrast Rating 1
+Given a contrast ratio and a boolean indicating whether the text is large, return the WCAG rating using the following table:
+
+Rating	Normal Text	Large Text
+"AAA"	7.0+	4.5+
+"AA"	4.5+	3.0+
+"Fail"	below 4.5	below 3.0
+
+
+### 27 - Pronic Number
+Given a number, determine whether it is a pronic number.
+
+A pronic number is the product of two consecutive integers. For example, 6 is pronic because 2 * 3 = 6.
+
+```
+function isPronic(n) {
+  const k = Math.floor(Math.sqrt(n));
+  return k * (k + 1) === n;
+}
+```
+
+### 26 - Letter Distance
+Given two strings of equal length, return the sum of the shortest distances between each pair of characters.
+
+The input will only contain lowercase letters
+The alphabet is treated as a circle, so the distance between a and z is 1.
+
+### 25 - Cell Signal
+Given a grid containing three cell tower readings, determine the location of the phone.
+
+Each cell in the grid is either 0 (no tower) or a positive integer representing the number of cells to the phone, measured in a straight line: horizontal, vertical, or diagonal.
+Return the [row, col] of the cell that is the correct number of cells from all three towers.
+There is always exactly one solution.
+### 24 - Loan Calculator
+Given a loan amount, annual interest rate percentage, and fixed monthly payment, return an array of remaining balances after each monthly payment until the loan is paid off.
+
+Each month, interest is calculated on the remaining balance using the monthly interest rate: (annual rate / 100) / 12, then the monthly payment is subtracted.
+Return each remaining balance rounded to the nearest dollar.
+Include the loan amount in the returned array. The first element in the array will always be the loan amount, and the last element of the array will always be 0.
+
+### 23 - Game Theory
+Given two equal length strings representing two players' strategies for a game, return the scores as an array [player1, player2].
+
+The given strings will only contain one of two letters: "C" (cooperate) or "D" (defect).
+Each character represents one round, scored as follows:
+If both players cooperate, each scores 3.
+If both players defect, each scores 1.
+If one player defects and the other cooperates, the defector scores 5 and the cooperator scores 0.
+
+### 22 - Piggy Bank
+Given an object representing a piggy bank, return the total value as a string formatted as "$D.CC".
+
+The object may contain any of the following:
+
+Coin		Value
+pennies		$0.01
+nickels		$0.05
+dimes		$0.10
+quarters	$0.25
+
+
+### 21 - Word Blender
+Given two words, return a new word by combining the first half of the first word with the second half of the second word.
+
+For odd-length words, the first half is the shorter half.
+```
+function blendWords(word1, word2) {
+  const firstHalf = word1.slice(0, Math.floor(word1.length / 2));
+  const secondHalf = word2.slice(Math.floor(word2.length / 2));
+
+  return firstHalf + secondHalf;
+}
+```
+
 ### 20 - Golden Ratio
 Given two numbers, determine if their ratio approximates the golden ratio.
 
 Use a golden ratio of 1.618
 Allow a tolerance of 0.01
-
+```
 function isGoldenRatio(a, b) {
   const ratio = Math.max(a, b) / Math.min(a, b);
   return Math.abs(ratio - 1.618) <= 0.01;
 }
-
+```
 ### 19 - Elevator Stops
 Given a number for the current floor of an elevator and an array of requested floors, return an array of the order the elevator should visit them to minimize number of floors traveled.
 

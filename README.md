@@ -3,7 +3,22 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
+## August
+
+### 1- Vowel Balance
+Given a string, determine whether the number of vowels in the first half of the string is equal to the number of vowels in the second half.
+
+The string can contain any characters.
+The letters a, e, i, o, and u, in either uppercase or lowercase, are considered vowels.
+If there's an odd number of characters in the string, ignore the center character.
+
 ## July
+
+### Bonus - Magic Square Solver
+Given a 3x3 grid with one missing number (represented as 0), return the missing number that completes the magic square, or "impossible" if no valid number exists.
+
+A magic square is a grid where every row, column, and diagonal adds up to the same number.
+
 
 ### 31 - Morse Code
 Given a Morse code string, return the decoded message using the following table:

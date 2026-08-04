@@ -5,6 +5,19 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## August
 
+### 4 - S P A C E J A M
+Given a string, remove all spaces from the string, insert two spaces between every character, convert all alphabetical letters to uppercase, and return the result.
+
+Non-alphabetical characters should remain unchanged (except for spaces).
+
+function spaceJam(str) {
+  return str
+    .replace(/ /g, "")
+    .toUpperCase()
+    .split("")
+    .join("  ");
+}
+
 ### 3 - Fibonacci Sequence
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. When starting with 0 and 1, the first 10 numbers in the sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
 

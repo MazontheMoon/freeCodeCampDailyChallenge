@@ -5,6 +5,13 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 ## August
 
+### 9 - Between Two Buckets
+Given two buckets of paint, each with an RGB color and a fullness level, return the mixed RGB color as an array of three integers.
+
+Each bucket is an object (JavaScript) or dictionary (Python) with a color property (an array of three integers [r, g, b]) and a fullness property (0–100).
+The mixed color is a weighted average of each channel in the two colors based on fullness level, with each channel rounded to the nearest integer.
+
+
 ### 8 - Bucket Fill 2
 Given a 2D grid of single-letter color strings and a target color, return the minimum number of flood fill "clicks" needed to make the entire grid the target color.
 

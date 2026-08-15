@@ -3,6 +3,8 @@ A collection of my solutions to FreeCodeCamps series of daily challenges
 
 # 2026
 
+FreeCodeCamp issue - no new daily challenges
+
 ## August
 
 ### 12 - Base Check
